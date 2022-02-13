@@ -7,4 +7,5 @@ Results are saved as a separate file in the `../data` folder.
 
 data/  
 This folder stores the original text to be parsed (`article.txt`) and the results of parsing (`spacy_parse.tsv`).  
-The text is obtained from NL Times (https://nltimes.nl/2022/02/09/sources-netherlands-abolish-covid-rules-beginning-march, viewed on 10 Feb). All rights reserved.  
+
+The text in `article.txt` is obtained from NL Times (https://nltimes.nl/2022/02/09/sources-netherlands-abolish-covid-rules-beginning-march, viewed on 10 Feb). All rights reserved.  
