@@ -1,630 +1,630 @@
-token	dependency	head	dependent	is_sent_start
-The	det	Cabinet	[]	True
-Cabinet	nsubj	hopes	['The']	False
-hopes	ccomp	said	['The', 'Cabinet', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	False
-to	aux	be	[]	False
-be	xcomp	hopes	['to', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	False
-able	acomp	be	['to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',']	False
-to	aux	abolish	[]	False
-abolish	xcomp	able	['to', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',']	False
-most	dobj	abolish	['of', 'the', 'remaining', 'corona', 'measures']	False
-of	prep	most	['the', 'remaining', 'corona', 'measures']	False
-the	det	measures	[]	False
-remaining	amod	measures	[]	False
-corona	compound	measures	[]	False
-measures	pobj	of	['the', 'remaining', 'corona']	False
-by	prep	abolish	['the', 'beginning', 'of', 'March']	False
-the	det	beginning	[]	False
-beginning	pobj	by	['the', 'of', 'March']	False
-of	prep	beginning	['March']	False
-March	pobj	of	[]	False
-,	punct	abolish	[]	False
-including	prep	be	['the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	False
-the	det	use	[]	False
-use	pobj	including	['the', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	False
-of	prep	use	['face', 'masks']	False
-face	compound	masks	[]	False
-masks	pobj	of	['face']	False
-and	cc	use	[]	False
-the	det	rule	[]	False
-1.5	nummod	meter	[]	False
-meter	nmod	rule	['1.5']	False
-social	amod	distancing	[]	False
-distancing	compound	rule	['social']	False
-rule	conj	use	['the', '1.5', 'meter', 'social', 'distancing']	False
-,	punct	said	[]	False
-sources	nsubj	said	[]	False
-said	ROOT	said	['The', 'Cabinet', 'hopes', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule', ',', 'sources', '.']	False
-.	punct	said	[]	False
-Those	nsubjpass	required	['wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events']	True
-wanting	acl	Those	['to', 'attend', 'large', 'festivals', 'and', 'events']	False
-to	aux	attend	[]	False
-attend	xcomp	wanting	['to', 'large', 'festivals', 'and', 'events']	False
-large	amod	festivals	[]	False
-festivals	dobj	attend	['large', 'and', 'events']	False
-and	cc	festivals	[]	False
-events	conj	festivals	[]	False
-will	aux	required	[]	False
-be	auxpass	required	[]	False
-required	ROOT	required	['Those', 'wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events', 'will', 'be', 'to', 'show', 'a', 'negative', 'coronavirus', 'test', '.']	False
-to	aux	show	[]	False
-show	advcl	required	['to', 'a', 'negative', 'coronavirus', 'test']	False
-a	det	test	[]	False
-negative	amod	test	[]	False
-coronavirus	compound	test	[]	False
-test	dobj	show	['a', 'negative', 'coronavirus']	False
-.	punct	required	[]	False
-The	det	Cabinet	[]	True
-Cabinet	nsubj	wants	['The']	False
-first	advmod	wants	[]	False
-wants	ROOT	wants	['The', 'Cabinet', 'first', 'to', 'hear', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')', 'whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'is', 'a', 'responsible', 'course', 'of', 'action', '.']	False
-to	aux	hear	[]	False
-hear	xcomp	wants	['to', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']	False
-from	prep	hear	['the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']	False
-the	det	Team	[]	False
-Outbreak	compound	Management	[]	False
-Management	compound	Team	['Outbreak']	False
-Team	pobj	from	['the', 'Outbreak', 'Management', '(', 'OMT', ')']	False
-(	punct	OMT	[]	False
-OMT	appos	Team	['(']	False
-)	punct	Team	[]	False
-whether	mark	is	[]	False
-such	amod	relaxation	[]	False
-extensive	amod	relaxation	[]	False
-relaxation	nsubj	is	['such', 'extensive', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands']	False
-of	prep	relaxation	['the', 'restrictions', 'in', 'the', 'Netherlands']	False
-the	det	restrictions	[]	False
-restrictions	pobj	of	['the', 'in', 'the', 'Netherlands']	False
-in	prep	restrictions	['the', 'Netherlands']	False
-the	det	Netherlands	[]	False
-Netherlands	pobj	in	['the']	False
-is	advcl	wants	['whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'a', 'responsible', 'course', 'of', 'action']	False
-a	det	course	[]	False
-responsible	amod	course	[]	False
-course	attr	is	['a', 'responsible', 'of', 'action']	False
-of	prep	course	['action']	False
-action	pobj	of	[]	False
-.	punct	wants	[]	False
-Coronavirus	compound	infections	[]	True
-infections	nsubj	are	['Coronavirus', 'in', 'the', 'country']	False
-in	prep	infections	['the', 'country']	False
-the	det	country	[]	False
-country	pobj	in	['the']	False
-are	ROOT	are	['Coronavirus', 'infections', 'in', 'the', 'country', 'currently', 'at', 'an', 'all', '-', 'time', 'high', ',', 'and', 'Covid-19', 'hospitalizations', 'have', 'been', 'rising', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']	False
-currently	advmod	are	[]	False
-at	prep	are	['an', 'all', '-', 'time', 'high']	False
-an	det	high	[]	False
-all	det	time	[]	False
--	punct	time	[]	False
-time	npadvmod	high	['all', '-']	False
-high	pobj	at	['an', 'all', '-', 'time']	False
-,	punct	are	[]	False
-and	cc	are	[]	False
-Covid-19	compound	hospitalizations	[]	False
-hospitalizations	nsubj	rising	['Covid-19']	False
-have	aux	rising	[]	False
-been	aux	rising	[]	False
-rising	conj	are	['Covid-19', 'hospitalizations', 'have', 'been', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']	False
-for	prep	rising	['five', 'weeks']	False
-five	nummod	weeks	[]	False
-weeks	pobj	for	['five']	False
-,	punct	rising	[]	False
-but	cc	rising	[]	False
-intensive	amod	admissions	[]	False
-care	compound	admissions	[]	False
-admissions	nsubj	remained	['intensive', 'care']	False
-have	aux	remained	[]	False
-remained	conj	rising	['intensive', 'care', 'admissions', 'have', 'near', 'a', '100', '-', 'day', 'low', '.']	False
-near	prep	remained	['a', '100', '-', 'day', 'low']	False
-a	det	low	[]	False
-100	nummod	day	[]	False
--	punct	day	[]	False
-day	compound	low	['100', '-']	False
-low	pobj	near	['a', '100', '-', 'day']	False
-.	punct	remained	[]	False
-From	prep	be	['February', '25']	True
-February	pobj	From	['25']	False
-25	nummod	February	[]	False
-,	punct	be	[]	False
-nightlife	compound	locations	[]	False
-locations	nsubj	be	['nightlife', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating']	False
-,	punct	locations	[]	False
-festivals	conj	locations	['and', 'events']	False
-and	cc	festivals	[]	False
-events	conj	festivals	[]	False
-without	prep	locations	['fixed', 'seating']	False
-fixed	amod	seating	[]	False
-seating	pobj	without	['fixed']	False
-may	aux	be	[]	False
-already	advmod	be	[]	False
-be	ROOT	be	['From', 'February', '25', ',', 'nightlife', 'locations', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating', 'may', 'already', 'open', 'to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection', '.']	False
-open	acomp	be	['to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	False
-to	prep	open	['people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	False
-people	pobj	to	['who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	False
-who	nsubj	test	[]	False
-test	relcl	people	['who', 'negative', 'for', 'the', 'coronavirus', 'infection']	False
-negative	advmod	test	[]	False
-for	prep	test	['the', 'coronavirus', 'infection']	False
-the	det	infection	[]	False
-coronavirus	compound	infection	[]	False
-infection	pobj	for	['the', 'coronavirus']	False
-.	punct	be	[]	False
-These	det	changes	[]	True
-changes	nsubjpass	expected	['These', 'to', 'policy', 'in', 'the', 'Netherlands']	False
-to	aux	policy	[]	False
-policy	relcl	changes	['to', 'in', 'the', 'Netherlands']	False
-in	prep	policy	['the', 'Netherlands']	False
-the	det	Netherlands	[]	False
-Netherlands	pobj	in	['the']	False
-are	auxpass	expected	[]	False
-expected	ROOT	expected	['These', 'changes', 'to', 'policy', 'in', 'the', 'Netherlands', 'are', 'to', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'Tuesday', '.']	False
-to	aux	announced	[]	False
-be	auxpass	announced	[]	False
-announced	xcomp	expected	['to', 'be', 'at', 'a', 'press', 'conference', 'on', 'Tuesday']	False
-at	prep	announced	['a', 'press', 'conference']	False
-a	det	conference	[]	False
-press	compound	conference	[]	False
-conference	pobj	at	['a', 'press']	False
-on	prep	announced	['Tuesday']	False
-Tuesday	pobj	on	[]	False
-.	punct	expected	[]	False
-This	det	week	[]	True
-week	npadvmod	said	['This']	False
-,	punct	said	[]	False
-Kuipers	nsubj	said	[]	False
-said	ROOT	said	"['This', 'week', ',', 'Kuipers', 'the', 'government', ""'s"", 'new', 'focus', 'is', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council', '.']"	False
-the	det	government	[]	False
-government	poss	focus	"['the', ""'s""]"	False
-'s	case	government	[]	False
-new	amod	focus	[]	False
-focus	nsubj	is	"['the', 'government', ""'s"", 'new']"	False
-is	ccomp	said	"['the', 'government', ""'s"", 'new', 'focus', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']"	False
-to	aux	keep	[]	False
-keep	xcomp	is	['to', 'society', 'open']	False
-society	dobj	keep	[]	False
-open	oprd	keep	[]	False
-,	punct	is	[]	False
-which	nsubjpass	celebrated	[]	False
-was	auxpass	celebrated	[]	False
-celebrated	advcl	is	['which', 'was', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']	False
-by	agent	celebrated	['the', 'mayors', 'on', 'the', 'Security', 'Council']	False
-the	det	mayors	[]	False
-mayors	pobj	by	['the', 'on', 'the', 'Security', 'Council']	False
-on	prep	mayors	['the', 'Security', 'Council']	False
-the	det	Council	[]	False
-Security	compound	Council	[]	False
-Council	pobj	on	['the', 'Security']	False
-.	punct	said	[]	False
-If	mark	think	[]	True
-the	det	experts	[]	False
-experts	nsubj	think	['the']	False
-think	advcl	taken	"['If', 'the', 'experts', 'it', ""'s"", 'justified']"	False
-it	nsubj	's	[]	False
-'s	auxpass	justified	['it']	False
-justified	ccomp	think	"['it', ""'s""]"	False
-,	punct	taken	[]	False
-further	amod	steps	[]	False
-steps	nsubjpass	taken	['further']	False
-will	aux	taken	[]	False
-probably	advmod	taken	[]	False
-be	auxpass	taken	[]	False
-taken	ROOT	taken	"['If', 'the', 'experts', 'think', 'it', ""'s"", 'justified', ',', 'further', 'steps', 'will', 'probably', 'be', 'at', 'the', 'beginning', 'of', 'March', '.']"	False
-at	prep	taken	['the', 'beginning', 'of', 'March']	False
-the	det	beginning	[]	False
-beginning	pobj	at	['the', 'of', 'March']	False
-of	prep	beginning	['March']	False
-March	pobj	of	[]	False
-.	punct	taken	[]	False
-These	det	relaxations	[]	True
-relaxations	nsubjpass	announced	['These']	False
-may	aux	announced	[]	False
-be	auxpass	announced	[]	False
-announced	ROOT	announced	['These', 'relaxations', 'may', 'be', 'at', 'a', 'press', 'conference', 'on', 'March', '8', ',', 'but', 'that', 'is', 'not', 'yet', 'certain', '.']	False
-at	prep	announced	['a', 'press', 'conference']	False
-a	det	conference	[]	False
-press	compound	conference	[]	False
-conference	pobj	at	['a', 'press']	False
-on	prep	announced	['March', '8']	False
-March	pobj	on	['8']	False
-8	nummod	March	[]	False
-,	punct	announced	[]	False
-but	cc	announced	[]	False
-that	nsubj	is	[]	False
-is	conj	announced	['that', 'not', 'yet', 'certain', '.']	False
-not	neg	is	[]	False
-yet	advmod	is	[]	False
-certain	acomp	is	[]	False
-.	punct	is	[]	False
-Earlier	advmod	emerged	[]	True
-in	prep	emerged	['the', 'day']	False
-the	det	day	[]	False
-day	pobj	in	['the']	False
-it	nsubjpass	emerged	[]	False
-was	auxpass	emerged	[]	False
-emerged	ROOT	emerged	['Earlier', 'in', 'the', 'day', 'it', 'was', 'that', 'the', 'Cabinet', 'wants', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week', '.']	False
-that	mark	wants	[]	False
-the	det	Cabinet	[]	False
-Cabinet	nsubj	wants	['the']	False
-wants	ccomp	emerged	['that', 'the', 'Cabinet', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']	False
-to	aux	extend	[]	False
-extend	xcomp	wants	['to', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']	False
-the	det	hours	[]	False
-opening	compound	hours	[]	False
-hours	dobj	extend	['the', 'opening']	False
-for	prep	extend	['the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']	False
-the	det	industry	[]	False
-hospitality	compound	industry	[]	False
-industry	pobj	for	['the', 'hospitality', ',', 'theaters', 'and', 'cinemas']	False
-,	punct	industry	[]	False
-theaters	conj	industry	['and', 'cinemas']	False
-and	cc	theaters	[]	False
-cinemas	conj	theaters	[]	False
-next	amod	week	[]	False
-week	npadvmod	extend	['next']	False
-.	punct	emerged	[]	False
-The	det	time	[]	True
-exact	amod	time	[]	False
-time	nsubjpass	discussed	['The', 'exact', 'of', 'closure']	False
-of	prep	time	['closure']	False
-closure	pobj	of	[]	False
-is	aux	discussed	[]	False
-still	advmod	discussed	[]	False
-being	auxpass	discussed	[]	False
-discussed	ROOT	discussed	['The', 'exact', 'time', 'of', 'closure', 'is', 'still', 'being', '.']	False
-.	punct	discussed	[]	False
-These	det	businesses	[]	True
-businesses	nsubj	have	['These']	False
-currently	advmod	have	[]	False
-have	ROOT	have	['These', 'businesses', 'currently', 'to', 'close', 'at', '10', 'p.m.']	False
-to	aux	close	[]	False
-close	xcomp	have	['to', 'at', '10']	False
-at	prep	close	['10']	False
-10	pobj	at	[]	False
-p.m.	npadvmod	have	[]	False
-Customers	nsubj	have	[]	True
-may	aux	have	[]	False
-no	neg	longer	[]	False
-longer	advmod	have	['no']	False
-have	ROOT	have	['Customers', 'may', 'no', 'longer', 'to', 'remain', 'in', 'assigned', 'seats', ',', 'and', 'social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity', '.']	False
-to	aux	remain	[]	False
-remain	xcomp	have	['to', 'in', 'assigned', 'seats']	False
-in	prep	remain	['assigned', 'seats']	False
-assigned	amod	seats	[]	False
-seats	pobj	in	['assigned']	False
-,	punct	have	[]	False
-and	cc	have	[]	False
-social	amod	requirements	[]	False
-distancing	compound	requirements	[]	False
-requirements	nsubj	disappear	['social', 'distancing', 'in', 'the', 'hospitality', 'and']	False
-in	prep	requirements	['the', 'hospitality', 'and']	False
-the	det	hospitality	[]	False
-hospitality	pobj	in	['the', 'and']	False
-and	cc	hospitality	[]	False
-cultural	amod	sector	[]	False
-sector	nsubj	disappear	['cultural']	False
-could	aux	disappear	[]	False
-disappear	conj	have	['social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity', '.']	False
-,	punct	disappear	[]	False
-allowing	advcl	disappear	['them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']	False
-them	nsubj	increase	[]	False
-to	aux	increase	[]	False
-increase	ccomp	allowing	['them', 'to', 'attendance', 'to', 'maximum', 'capacity']	False
-attendance	dobj	increase	['to', 'maximum', 'capacity']	False
-to	prep	attendance	['maximum', 'capacity']	False
-maximum	amod	capacity	[]	False
-capacity	pobj	to	['maximum']	False
-.	punct	disappear	[]	False
-Furthermore	advmod	disappear	[]	True
-,	punct	disappear	[]	False
-according	prep	disappear	['to', 'sources', 'close', 'to', 'the', 'Cabinet']	False
-to	prep	according	['sources', 'close', 'the', 'Cabinet']	False
-sources	pobj	to	['close', 'to', 'the', 'Cabinet']	False
-close	amod	sources	['to', 'the', 'Cabinet']	False
-to	prep	close	['the', 'Cabinet']	False
-the	det	Cabinet	[]	False
-Cabinet	pobj	to	['the']	False
-,	punct	disappear	[]	False
-the	det	advice	[]	False
-advice	nsubj	disappear	['the', 'to', 'work', 'from', 'home']	False
-to	aux	work	[]	False
-work	relcl	advice	['to', 'from', 'home']	False
-from	prep	work	['home']	False
-home	pobj	from	[]	False
-will	aux	disappear	[]	False
-also	advmod	disappear	[]	False
-disappear	ROOT	disappear	['Furthermore', ',', 'according', 'to', 'sources', 'close', 'to', 'the', 'Cabinet', ',', 'the', 'advice', 'to', 'work', 'from', 'home', 'will', 'also', '.']	False
-.	punct	disappear	[]	False
-The	det	advice	[]	True
-current	amod	advice	[]	False
-advice	nsubj	been	['The', 'current']	False
-has	aux	been	[]	False
-been	ROOT	been	['The', 'current', 'advice', 'has', 'in', 'effect', 'since', 'November', '26', '.']	False
-in	prep	been	['effect']	False
-effect	pobj	in	[]	False
-since	prep	been	['November', '26']	False
-November	pobj	since	['26']	False
-26	nummod	November	[]	False
-.	punct	been	[]	False
-It	nsubjpass	announced	[]	True
-will	aux	announced	[]	False
-also	advmod	announced	[]	False
-probably	advmod	announced	[]	False
-be	auxpass	announced	[]	False
-announced	ROOT	announced	['It', 'will', 'also', 'probably', 'be', 'next', 'week', 'that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be', 'lifted', '.']	False
-next	amod	week	[]	False
-week	npadvmod	announced	['next']	False
-that	mark	lifted	[]	False
-the	det	restriction	[]	False
-restriction	nsubjpass	lifted	['the', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home']	False
-to	aux	receive	[]	False
-receive	acl	restriction	['to', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home']	False
-a	quantmod	four	[]	False
-maximum	quantmod	four	[]	False
-of	quantmod	four	[]	False
-four	nummod	people	['a', 'maximum', 'of']	False
-people	dobj	receive	['a', 'maximum', 'of', 'four']	False
-at	prep	receive	['home']	False
-home	pobj	at	[]	False
-will	aux	lifted	[]	False
-be	auxpass	lifted	[]	False
-lifted	ccomp	announced	['that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be']	False
-.	punct	announced	[]	False
-The	det	Cabinet	[]	True
-Cabinet	nsubj	is	['The']	False
-is	ROOT	is	"['The', 'Cabinet', '""', 'cautiously', 'optimistic', '""', 'about', 'hospital', 'admissions', '.']"	False
-""""	punct	optimistic	[]	False
-cautiously	advmod	optimistic	[]	False
-optimistic	acomp	is	"['""', 'cautiously', '""', 'about', 'hospital', 'admissions']"	False
-""""	punct	optimistic	[]	False
-about	prep	optimistic	['hospital', 'admissions']	False
-hospital	compound	admissions	[]	False
-admissions	pobj	about	['hospital']	False
-.	punct	is	[]	False
-These	nsubj	increased	[]	True
-have	aux	increased	[]	False
-increased	ROOT	increased	['These', 'have', 'over', 'the', 'last', 'five', 'weeks', ',', 'but', 'at', 'a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus', '.']	False
-over	prep	increased	['the', 'last', 'five', 'weeks']	False
-the	det	weeks	[]	False
-last	amod	weeks	[]	False
-five	nummod	weeks	[]	False
-weeks	pobj	over	['the', 'last', 'five']	False
-,	punct	increased	[]	False
-but	cc	increased	[]	False
-at	prep	compared	['a', 'much', 'lower', 'rate']	False
-a	det	rate	[]	False
-much	advmod	lower	[]	False
-lower	amod	rate	['much']	False
-rate	pobj	at	['a', 'much', 'lower']	False
-compared	conj	increased	['at', 'a', 'much', 'lower', 'rate', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	False
-to	prep	compared	['the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'the', 'Omicron', 'virus']	False
-the	det	numbers	[]	False
-enormous	amod	numbers	[]	False
-numbers	pobj	to	['the', 'enormous', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	False
-of	prep	numbers	['positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	False
-positive	amod	infections	[]	False
-infections	pobj	of	['positive', 'linked', 'to', 'the', 'Omicron', 'virus']	False
-linked	acl	infections	['to', 'the', 'Omicron', 'virus']	False
-to	prep	linked	['the', 'Omicron', 'virus']	False
-the	det	virus	[]	False
-Omicron	compound	virus	[]	False
-virus	pobj	to	['the', 'Omicron']	False
-.	punct	increased	[]	False
-""""	punct	is	[]	True
-The	det	number	[]	False
-number	nsubj	is	['The', 'of', 'infections']	False
-of	prep	number	['infections']	False
-infections	pobj	of	[]	False
-is	ccomp	said	"['""', 'The', 'number', 'of', 'infections', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'not', 'too', 'bad']"	False
-very	advmod	high	[]	False
-high	acomp	is	['very']	False
-,	punct	is	[]	False
-but	cc	is	[]	False
-fortunately	advmod	is	[]	False
-the	det	pressure	[]	False
-pressure	nsubj	is	['the', 'on', 'healthcare']	False
-on	prep	pressure	['healthcare']	False
-healthcare	pobj	on	[]	False
-is	conj	is	['fortunately', 'the', 'pressure', 'on', 'healthcare', 'not', 'too', 'bad']	False
-not	neg	is	[]	False
-too	advmod	bad	[]	False
-bad	acomp	is	['too']	False
-,	punct	said	[]	False
-""""	punct	said	[]	False
-said	ROOT	said	"['""', 'The', 'number', 'of', 'infections', 'is', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad', ',', '""', 'Health', 'Minister', 'Ernst', 'Kuipers', 'on', 'Wednesday', '.']"	False
-Health	compound	Minister	[]	False
-Minister	compound	Kuipers	['Health']	False
-Ernst	compound	Kuipers	[]	False
-Kuipers	nsubj	said	['Health', 'Minister', 'Ernst']	False
-on	prep	said	['Wednesday']	False
-Wednesday	pobj	on	[]	False
-.	punct	said	[]	False
-Cabinet	compound	members	[]	True
-members	nsubj	want	['Cabinet']	False
-did	aux	want	[]	False
-not	neg	want	[]	False
-want	ROOT	want	['Cabinet', 'members', 'did', 'not', 'to', 'publicly', 'anticipate', 'any', 'relaxations', '.']	False
-to	aux	anticipate	[]	False
-publicly	advmod	anticipate	[]	False
-anticipate	xcomp	want	['to', 'publicly', 'any', 'relaxations']	False
-any	det	relaxations	[]	False
-relaxations	dobj	anticipate	['any']	False
-.	punct	want	[]	False
-Prime	compound	Minister	[]	True
-Minister	compound	Rutte	['Prime']	False
-Mark	compound	Rutte	[]	False
-Rutte	nsubj	said	['Prime', 'Minister', 'Mark']	False
-said	ROOT	said	"['Prime', 'Minister', 'Mark', 'Rutte', 'on', 'Wednesday', 'that', 'the', 'chance', 'is', '""', 'really', 'high', '""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible', '.']"	False
-on	prep	said	['Wednesday']	False
-Wednesday	pobj	on	[]	False
-that	mark	is	[]	False
-the	det	chance	[]	False
-chance	nsubj	is	['the']	False
-is	ccomp	said	"['that', 'the', 'chance', '""', 'really', 'high', '""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible']"	False
-""""	punct	high	[]	False
-really	advmod	high	[]	False
-high	acomp	is	"['""', 'really', '""']"	False
-""""	punct	high	[]	False
-that	mark	be	[]	False
-loosening	csubj	be	['up', 'restrictions']	False
-up	prt	loosening	[]	False
-restrictions	dobj	loosening	[]	False
-will	aux	be	[]	False
-be	ccomp	is	['that', 'loosening', 'up', 'restrictions', 'will', 'possible']	False
-possible	acomp	be	[]	False
-.	punct	said	[]	False
-Cabinet	compound	ministers	[]	True
-ministers	nsubj	met	['Cabinet']	False
-met	ROOT	met	['Cabinet', 'ministers', 'for', 'an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy', 'on', 'Wednesday', 'morning', ',', 'and', 'the', 'OMT', 'will', 'meet', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']	False
-for	prep	met	['an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy']	False
-an	det	meeting	[]	False
-extra	amod	meeting	[]	False
-meeting	pobj	for	['an', 'extra', 'about', 'the', 'coronavirus', 'policy']	False
-about	prep	meeting	['the', 'coronavirus', 'policy']	False
-the	det	policy	[]	False
-coronavirus	compound	policy	[]	False
-policy	pobj	about	['the', 'coronavirus']	False
-on	prep	met	['Wednesday', 'morning']	False
-Wednesday	compound	morning	[]	False
-morning	pobj	on	['Wednesday']	False
-,	punct	met	[]	False
-and	cc	met	[]	False
-the	det	OMT	[]	False
-OMT	nsubj	meet	['the']	False
-will	aux	meet	[]	False
-meet	conj	met	['the', 'OMT', 'will', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']	False
-again	advmod	meet	[]	False
-to	aux	discuss	[]	False
-discuss	advcl	meet	['to', 'the', 'issue', 'on', 'Friday']	False
-the	det	issue	[]	False
-issue	dobj	discuss	['the']	False
-on	prep	discuss	['Friday']	False
-Friday	pobj	on	[]	False
-.	punct	meet	[]	False
-Rutte	nsubj	said	[]	True
-said	ccomp	said	"['Rutte', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"	False
-the	det	Cabinet	[]	False
-Cabinet	nsubj	inform	['the']	False
-could	aux	inform	[]	False
-inform	ccomp	said	"['the', 'Cabinet', 'could', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"	False
-the	det	Kamer	[]	False
-Tweede	compound	Kamer	[]	False
-Kamer	dobj	inform	['the', 'Tweede']	False
-about	prep	inform	"['what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend']"	False
-what	dobj	considering	[]	False
-it	nsubj	considering	[]	False
-'s	aux	considering	[]	False
-considering	pcomp	about	"['what', 'it', ""'s"", 'even', 'before', 'the', 'weekend']"	False
-even	advmod	before	[]	False
-before	prep	considering	['even', 'the', 'weekend']	False
-the	det	weekend	[]	False
-weekend	pobj	before	['the']	False
-,	punct	inform	[]	False
-""""	punct	inform	[]	False
-a	det	sort	[]	False
-sort	dobj	inform	"['a', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"	False
-of	prep	sort	"[""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'measures']"	False
-'	punct	of	[]	False
-what	nsubj	be	[]	False
-could	aux	be	[]	False
-be	pcomp	of	"['what', 'could', ""'"", 'package', '""', 'of', 'measures']"	False
-'	punct	package	[]	False
-package	attr	be	"[""'"", '""', 'of', 'measures']"	False
-""""	punct	package	[]	False
-of	prep	package	['measures']	False
-measures	pobj	of	[]	False
-,	punct	said	[]	False
-he	nsubj	said	[]	False
-said	ROOT	said	"['Rutte', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures', ',', 'he', '.']"	False
-.	punct	said	[]	False
-In	prep	have	['addition']	True
-addition	pobj	In	[]	False
-,	punct	have	[]	False
-the	det	Cabinet	[]	False
-Cabinet	nsubj	have	['the']	False
-will	aux	have	[]	False
-have	ROOT	have	['In', 'addition', ',', 'the', 'Cabinet', 'will', 'to', 'make', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal', '.']	False
-to	aux	make	[]	False
-make	xcomp	have	['to', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']	False
-it	nsubj	clear	[]	False
-clear	ccomp	make	['it', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']	False
-that	mark	implemented	[]	False
-all	predet	relaxations	[]	False
-these	det	relaxations	[]	False
-relaxations	nsubjpass	implemented	['all', 'these']	False
-may	aux	implemented	[]	False
-not	neg	implemented	[]	False
-be	auxpass	implemented	[]	False
-implemented	advcl	clear	['that', 'all', 'these', 'relaxations', 'may', 'not', 'be', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']	False
-,	punct	implemented	[]	False
-particularly	advmod	sees	[]	False
-if	mark	sees	[]	False
-the	det	OMT	[]	False
-OMT	nsubj	sees	['the']	False
-sees	advcl	implemented	['particularly', 'if', 'the', 'OMT', 'a', 'problem', 'with', 'the', 'proposal']	False
-a	det	problem	[]	False
-problem	dobj	sees	['a', 'with', 'the', 'proposal']	False
-with	prep	problem	['the', 'proposal']	False
-the	det	proposal	[]	False
-proposal	pobj	with	['the']	False
-.	punct	have	[]	False
-Anything	nsubj	taken	[]	True
-taken	csubjpass	made	['Anything', 'off', 'the', 'table', 'in', 'the', 'interim']	False
-off	prt	taken	[]	False
-the	det	table	[]	False
-table	dobj	taken	['the']	False
-in	prep	taken	['the', 'interim']	False
-the	det	interim	[]	False
-interim	pobj	in	['the']	False
-will	aux	made	[]	False
-be	auxpass	made	[]	False
-made	ROOT	made	['Anything', 'taken', 'off', 'the', 'table', 'in', 'the', 'interim', 'will', 'be', 'clear', 'on', 'Tuesday', '.']	False
-clear	oprd	made	[]	False
-on	prep	made	['Tuesday']	False
-Tuesday	pobj	on	[]	False
-.	punct	made	[]	False
-Far	advmod	reaching	[]	True
--	punct	reaching	[]	False
-reaching	amod	elimination	['Far', '-']	False
-elimination	nsubjpass	announced	['Far', '-', 'reaching', 'of', 'restrictions']	False
-of	prep	elimination	['restrictions']	False
-restrictions	pobj	of	[]	False
-will	aux	announced	[]	False
-also	advmod	announced	[]	False
-be	auxpass	announced	[]	False
-announced	ROOT	announced	['Far', '-', 'reaching', 'elimination', 'of', 'restrictions', 'will', 'also', 'be', 'in', 'other', 'European', 'countries', 'in', 'the', 'coming', 'days', '.']	False
-in	prep	announced	['other', 'European', 'countries']	False
-other	amod	countries	[]	False
-European	amod	countries	[]	False
-countries	pobj	in	['other', 'European']	False
-in	prep	announced	['the', 'coming', 'days']	False
-the	det	days	[]	False
-coming	amod	days	[]	False
-days	pobj	in	['the', 'coming']	False
-.	punct	announced	[]	False
-For	prep	expects	['example']	True
-example	pobj	For	[]	False
-,	punct	expects	[]	False
-the	det	minister	[]	False
-Belgian	amod	minister	[]	False
-minister	nsubj	expects	['the', 'Belgian', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke']	False
-handling	acl	minister	['coronavirus', 'issues']	False
-coronavirus	compound	issues	[]	False
-issues	dobj	handling	['coronavirus']	False
-,	punct	minister	[]	False
-Frank	compound	Vandenbroucke	[]	False
-Vandenbroucke	appos	minister	['Frank']	False
-,	punct	expects	[]	False
-expects	ROOT	expects	['For', 'example', ',', 'the', 'Belgian', 'minister', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke', ',', 'that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'withdrawn', 'in', 'Belgium', 'next', 'Friday', '.']	False
-that	mark	withdrawn	[]	False
-almost	advmod	all	[]	False
-all	nummod	measures	['almost']	False
-coronavirus	compound	measures	[]	False
-measures	nsubjpass	withdrawn	['almost', 'all', 'coronavirus']	False
-will	aux	withdrawn	[]	False
-be	auxpass	withdrawn	[]	False
-withdrawn	ccomp	expects	['that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'in', 'Belgium', 'next', 'Friday']	False
-in	prep	withdrawn	['Belgium']	False
-Belgium	pobj	in	[]	False
-next	amod	Friday	[]	False
-Friday	npadvmod	withdrawn	['next']	False
-.	punct	expects	[]	False
+token	dependency	head	dependent	constituent
+The	det	Cabinet	[]	['The']
+Cabinet	nsubj	hopes	['The']	['The', 'Cabinet']
+hopes	ccomp	said	['Cabinet', 'be']	['The', 'Cabinet', 'hopes', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']
+to	aux	be	[]	['to']
+be	xcomp	hopes	['to', 'able', 'including']	['to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']
+able	acomp	be	['abolish']	['able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',']
+to	aux	abolish	[]	['to']
+abolish	xcomp	able	['to', 'most', 'by', ',']	['to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',']
+most	dobj	abolish	['of']	['most', 'of', 'the', 'remaining', 'corona', 'measures']
+of	prep	most	['measures']	['of', 'the', 'remaining', 'corona', 'measures']
+the	det	measures	[]	['the']
+remaining	amod	measures	[]	['remaining']
+corona	compound	measures	[]	['corona']
+measures	pobj	of	['the', 'remaining', 'corona']	['the', 'remaining', 'corona', 'measures']
+by	prep	abolish	['beginning']	['by', 'the', 'beginning', 'of', 'March']
+the	det	beginning	[]	['the']
+beginning	pobj	by	['the', 'of']	['the', 'beginning', 'of', 'March']
+of	prep	beginning	['March']	['of', 'March']
+March	pobj	of	[]	['March']
+,	punct	abolish	[]	[',']
+including	prep	be	['use']	['including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']
+the	det	use	[]	['the']
+use	pobj	including	['the', 'of', 'and', 'rule']	['the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']
+of	prep	use	['masks']	['of', 'face', 'masks']
+face	compound	masks	[]	['face']
+masks	pobj	of	['face']	['face', 'masks']
+and	cc	use	[]	['and']
+the	det	rule	[]	['the']
+1.5	nummod	meter	[]	['1.5']
+meter	nmod	rule	['1.5']	['1.5', 'meter']
+social	amod	distancing	[]	['social']
+distancing	compound	rule	['social']	['social', 'distancing']
+rule	conj	use	['the', 'meter', 'distancing']	['the', '1.5', 'meter', 'social', 'distancing', 'rule']
+,	punct	said	[]	[',']
+sources	nsubj	said	[]	['sources']
+said	ROOT	said	['hopes', ',', 'sources', '.']	['The', 'Cabinet', 'hopes', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule', ',', 'sources', 'said', '.']
+.	punct	said	[]	['.']
+Those	nsubjpass	required	['wanting']	['Those', 'wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events']
+wanting	acl	Those	['attend']	['wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events']
+to	aux	attend	[]	['to']
+attend	xcomp	wanting	['to', 'festivals']	['to', 'attend', 'large', 'festivals', 'and', 'events']
+large	amod	festivals	[]	['large']
+festivals	dobj	attend	['large', 'and', 'events']	['large', 'festivals', 'and', 'events']
+and	cc	festivals	[]	['and']
+events	conj	festivals	[]	['events']
+will	aux	required	[]	['will']
+be	auxpass	required	[]	['be']
+required	ROOT	required	['Those', 'will', 'be', 'show', '.']	['Those', 'wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events', 'will', 'be', 'required', 'to', 'show', 'a', 'negative', 'coronavirus', 'test', '.']
+to	aux	show	[]	['to']
+show	advcl	required	['to', 'test']	['to', 'show', 'a', 'negative', 'coronavirus', 'test']
+a	det	test	[]	['a']
+negative	amod	test	[]	['negative']
+coronavirus	compound	test	[]	['coronavirus']
+test	dobj	show	['a', 'negative', 'coronavirus']	['a', 'negative', 'coronavirus', 'test']
+.	punct	required	[]	['.']
+The	det	Cabinet	[]	['The']
+Cabinet	nsubj	wants	['The']	['The', 'Cabinet']
+first	advmod	wants	[]	['first']
+wants	ROOT	wants	['Cabinet', 'first', 'hear', 'is', '.']	['The', 'Cabinet', 'first', 'wants', 'to', 'hear', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')', 'whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'is', 'a', 'responsible', 'course', 'of', 'action', '.']
+to	aux	hear	[]	['to']
+hear	xcomp	wants	['to', 'from']	['to', 'hear', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']
+from	prep	hear	['Team']	['from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']
+the	det	Team	[]	['the']
+Outbreak	compound	Management	[]	['Outbreak']
+Management	compound	Team	['Outbreak']	['Outbreak', 'Management']
+Team	pobj	from	['the', 'Management', 'OMT', ')']	['the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']
+(	punct	OMT	[]	['(']
+OMT	appos	Team	['(']	['(', 'OMT']
+)	punct	Team	[]	[')']
+whether	mark	is	[]	['whether']
+such	amod	relaxation	[]	['such']
+extensive	amod	relaxation	[]	['extensive']
+relaxation	nsubj	is	['such', 'extensive', 'of']	['such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands']
+of	prep	relaxation	['restrictions']	['of', 'the', 'restrictions', 'in', 'the', 'Netherlands']
+the	det	restrictions	[]	['the']
+restrictions	pobj	of	['the', 'in']	['the', 'restrictions', 'in', 'the', 'Netherlands']
+in	prep	restrictions	['Netherlands']	['in', 'the', 'Netherlands']
+the	det	Netherlands	[]	['the']
+Netherlands	pobj	in	['the']	['the', 'Netherlands']
+is	advcl	wants	['whether', 'relaxation', 'course']	['whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'is', 'a', 'responsible', 'course', 'of', 'action']
+a	det	course	[]	['a']
+responsible	amod	course	[]	['responsible']
+course	attr	is	['a', 'responsible', 'of']	['a', 'responsible', 'course', 'of', 'action']
+of	prep	course	['action']	['of', 'action']
+action	pobj	of	[]	['action']
+.	punct	wants	[]	['.']
+Coronavirus	compound	infections	[]	['Coronavirus']
+infections	nsubj	are	['Coronavirus', 'in']	['Coronavirus', 'infections', 'in', 'the', 'country']
+in	prep	infections	['country']	['in', 'the', 'country']
+the	det	country	[]	['the']
+country	pobj	in	['the']	['the', 'country']
+are	ROOT	are	['infections', 'currently', 'at', ',', 'and', 'rising']	['Coronavirus', 'infections', 'in', 'the', 'country', 'are', 'currently', 'at', 'an', 'all', '-', 'time', 'high', ',', 'and', 'Covid-19', 'hospitalizations', 'have', 'been', 'rising', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']
+currently	advmod	are	[]	['currently']
+at	prep	are	['high']	['at', 'an', 'all', '-', 'time', 'high']
+an	det	high	[]	['an']
+all	det	time	[]	['all']
+-	punct	time	[]	['-']
+time	npadvmod	high	['all', '-']	['all', '-', 'time']
+high	pobj	at	['an', 'time']	['an', 'all', '-', 'time', 'high']
+,	punct	are	[]	[',']
+and	cc	are	[]	['and']
+Covid-19	compound	hospitalizations	[]	['Covid-19']
+hospitalizations	nsubj	rising	['Covid-19']	['Covid-19', 'hospitalizations']
+have	aux	rising	[]	['have']
+been	aux	rising	[]	['been']
+rising	conj	are	['hospitalizations', 'have', 'been', 'for', ',', 'but', 'remained']	['Covid-19', 'hospitalizations', 'have', 'been', 'rising', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']
+for	prep	rising	['weeks']	['for', 'five', 'weeks']
+five	nummod	weeks	[]	['five']
+weeks	pobj	for	['five']	['five', 'weeks']
+,	punct	rising	[]	[',']
+but	cc	rising	[]	['but']
+intensive	amod	admissions	[]	['intensive']
+care	compound	admissions	[]	['care']
+admissions	nsubj	remained	['intensive', 'care']	['intensive', 'care', 'admissions']
+have	aux	remained	[]	['have']
+remained	conj	rising	['admissions', 'have', 'near', '.']	['intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']
+near	prep	remained	['low']	['near', 'a', '100', '-', 'day', 'low']
+a	det	low	[]	['a']
+100	nummod	day	[]	['100']
+-	punct	day	[]	['-']
+day	compound	low	['100', '-']	['100', '-', 'day']
+low	pobj	near	['a', 'day']	['a', '100', '-', 'day', 'low']
+.	punct	remained	[]	['.']
+From	prep	be	['February']	['From', 'February', '25']
+February	pobj	From	['25']	['February', '25']
+25	nummod	February	[]	['25']
+,	punct	be	[]	[',']
+nightlife	compound	locations	[]	['nightlife']
+locations	nsubj	be	['nightlife', ',', 'festivals', 'without']	['nightlife', 'locations', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating']
+,	punct	locations	[]	[',']
+festivals	conj	locations	['and', 'events']	['festivals', 'and', 'events']
+and	cc	festivals	[]	['and']
+events	conj	festivals	[]	['events']
+without	prep	locations	['seating']	['without', 'fixed', 'seating']
+fixed	amod	seating	[]	['fixed']
+seating	pobj	without	['fixed']	['fixed', 'seating']
+may	aux	be	[]	['may']
+already	advmod	be	[]	['already']
+be	ROOT	be	['From', ',', 'locations', 'may', 'already', 'open', '.']	['From', 'February', '25', ',', 'nightlife', 'locations', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating', 'may', 'already', 'be', 'open', 'to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection', '.']
+open	acomp	be	['to']	['open', 'to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']
+to	prep	open	['people']	['to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']
+people	pobj	to	['test']	['people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']
+who	nsubj	test	[]	['who']
+test	relcl	people	['who', 'negative', 'for']	['who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']
+negative	advmod	test	[]	['negative']
+for	prep	test	['infection']	['for', 'the', 'coronavirus', 'infection']
+the	det	infection	[]	['the']
+coronavirus	compound	infection	[]	['coronavirus']
+infection	pobj	for	['the', 'coronavirus']	['the', 'coronavirus', 'infection']
+.	punct	be	[]	['.']
+These	det	changes	[]	['These']
+changes	nsubjpass	expected	['These', 'policy']	['These', 'changes', 'to', 'policy', 'in', 'the', 'Netherlands']
+to	aux	policy	[]	['to']
+policy	relcl	changes	['to', 'in']	['to', 'policy', 'in', 'the', 'Netherlands']
+in	prep	policy	['Netherlands']	['in', 'the', 'Netherlands']
+the	det	Netherlands	[]	['the']
+Netherlands	pobj	in	['the']	['the', 'Netherlands']
+are	auxpass	expected	[]	['are']
+expected	ROOT	expected	['changes', 'are', 'announced', '.']	['These', 'changes', 'to', 'policy', 'in', 'the', 'Netherlands', 'are', 'expected', 'to', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'Tuesday', '.']
+to	aux	announced	[]	['to']
+be	auxpass	announced	[]	['be']
+announced	xcomp	expected	['to', 'be', 'at', 'on']	['to', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'Tuesday']
+at	prep	announced	['conference']	['at', 'a', 'press', 'conference']
+a	det	conference	[]	['a']
+press	compound	conference	[]	['press']
+conference	pobj	at	['a', 'press']	['a', 'press', 'conference']
+on	prep	announced	['Tuesday']	['on', 'Tuesday']
+Tuesday	pobj	on	[]	['Tuesday']
+.	punct	expected	[]	['.']
+This	det	week	[]	['This']
+week	npadvmod	said	['This']	['This', 'week']
+,	punct	said	[]	[',']
+Kuipers	nsubj	said	[]	['Kuipers']
+said	ROOT	said	['week', ',', 'Kuipers', 'is', '.']	"['This', 'week', ',', 'Kuipers', 'said', 'the', 'government', ""'s"", 'new', 'focus', 'is', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council', '.']"
+the	det	government	[]	['the']
+government	poss	focus	"['the', ""'s""]"	"['the', 'government', ""'s""]"
+'s	case	government	[]	"[""'s""]"
+new	amod	focus	[]	['new']
+focus	nsubj	is	['government', 'new']	"['the', 'government', ""'s"", 'new', 'focus']"
+is	ccomp	said	['focus', 'keep', ',', 'celebrated']	"['the', 'government', ""'s"", 'new', 'focus', 'is', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']"
+to	aux	keep	[]	['to']
+keep	xcomp	is	['to', 'society', 'open']	['to', 'keep', 'society', 'open']
+society	dobj	keep	[]	['society']
+open	oprd	keep	[]	['open']
+,	punct	is	[]	[',']
+which	nsubjpass	celebrated	[]	['which']
+was	auxpass	celebrated	[]	['was']
+celebrated	advcl	is	['which', 'was', 'by']	['which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']
+by	agent	celebrated	['mayors']	['by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']
+the	det	mayors	[]	['the']
+mayors	pobj	by	['the', 'on']	['the', 'mayors', 'on', 'the', 'Security', 'Council']
+on	prep	mayors	['Council']	['on', 'the', 'Security', 'Council']
+the	det	Council	[]	['the']
+Security	compound	Council	[]	['Security']
+Council	pobj	on	['the', 'Security']	['the', 'Security', 'Council']
+.	punct	said	[]	['.']
+If	mark	think	[]	['If']
+the	det	experts	[]	['the']
+experts	nsubj	think	['the']	['the', 'experts']
+think	advcl	taken	['If', 'experts', 'justified']	"['If', 'the', 'experts', 'think', 'it', ""'s"", 'justified']"
+it	nsubj	's	[]	['it']
+'s	auxpass	justified	['it']	"['it', ""'s""]"
+justified	ccomp	think	"[""'s""]"	"['it', ""'s"", 'justified']"
+,	punct	taken	[]	[',']
+further	amod	steps	[]	['further']
+steps	nsubjpass	taken	['further']	['further', 'steps']
+will	aux	taken	[]	['will']
+probably	advmod	taken	[]	['probably']
+be	auxpass	taken	[]	['be']
+taken	ROOT	taken	['think', ',', 'steps', 'will', 'probably', 'be', 'at', '.']	"['If', 'the', 'experts', 'think', 'it', ""'s"", 'justified', ',', 'further', 'steps', 'will', 'probably', 'be', 'taken', 'at', 'the', 'beginning', 'of', 'March', '.']"
+at	prep	taken	['beginning']	['at', 'the', 'beginning', 'of', 'March']
+the	det	beginning	[]	['the']
+beginning	pobj	at	['the', 'of']	['the', 'beginning', 'of', 'March']
+of	prep	beginning	['March']	['of', 'March']
+March	pobj	of	[]	['March']
+.	punct	taken	[]	['.']
+These	det	relaxations	[]	['These']
+relaxations	nsubjpass	announced	['These']	['These', 'relaxations']
+may	aux	announced	[]	['may']
+be	auxpass	announced	[]	['be']
+announced	ROOT	announced	['relaxations', 'may', 'be', 'at', 'on', ',', 'but', 'is']	['These', 'relaxations', 'may', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'March', '8', ',', 'but', 'that', 'is', 'not', 'yet', 'certain', '.']
+at	prep	announced	['conference']	['at', 'a', 'press', 'conference']
+a	det	conference	[]	['a']
+press	compound	conference	[]	['press']
+conference	pobj	at	['a', 'press']	['a', 'press', 'conference']
+on	prep	announced	['March']	['on', 'March', '8']
+March	pobj	on	['8']	['March', '8']
+8	nummod	March	[]	['8']
+,	punct	announced	[]	[',']
+but	cc	announced	[]	['but']
+that	nsubj	is	[]	['that']
+is	conj	announced	['that', 'not', 'yet', 'certain', '.']	['that', 'is', 'not', 'yet', 'certain', '.']
+not	neg	is	[]	['not']
+yet	advmod	is	[]	['yet']
+certain	acomp	is	[]	['certain']
+.	punct	is	[]	['.']
+Earlier	advmod	emerged	[]	['Earlier']
+in	prep	emerged	['day']	['in', 'the', 'day']
+the	det	day	[]	['the']
+day	pobj	in	['the']	['the', 'day']
+it	nsubjpass	emerged	[]	['it']
+was	auxpass	emerged	[]	['was']
+emerged	ROOT	emerged	['Earlier', 'in', 'it', 'was', 'wants', '.']	['Earlier', 'in', 'the', 'day', 'it', 'was', 'emerged', 'that', 'the', 'Cabinet', 'wants', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week', '.']
+that	mark	wants	[]	['that']
+the	det	Cabinet	[]	['the']
+Cabinet	nsubj	wants	['the']	['the', 'Cabinet']
+wants	ccomp	emerged	['that', 'Cabinet', 'extend']	['that', 'the', 'Cabinet', 'wants', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']
+to	aux	extend	[]	['to']
+extend	xcomp	wants	['to', 'hours', 'for', 'week']	['to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']
+the	det	hours	[]	['the']
+opening	compound	hours	[]	['opening']
+hours	dobj	extend	['the', 'opening']	['the', 'opening', 'hours']
+for	prep	extend	['industry']	['for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']
+the	det	industry	[]	['the']
+hospitality	compound	industry	[]	['hospitality']
+industry	pobj	for	['the', 'hospitality', ',', 'theaters']	['the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']
+,	punct	industry	[]	[',']
+theaters	conj	industry	['and', 'cinemas']	['theaters', 'and', 'cinemas']
+and	cc	theaters	[]	['and']
+cinemas	conj	theaters	[]	['cinemas']
+next	amod	week	[]	['next']
+week	npadvmod	extend	['next']	['next', 'week']
+.	punct	emerged	[]	['.']
+The	det	time	[]	['The']
+exact	amod	time	[]	['exact']
+time	nsubjpass	discussed	['The', 'exact', 'of']	['The', 'exact', 'time', 'of', 'closure']
+of	prep	time	['closure']	['of', 'closure']
+closure	pobj	of	[]	['closure']
+is	aux	discussed	[]	['is']
+still	advmod	discussed	[]	['still']
+being	auxpass	discussed	[]	['being']
+discussed	ROOT	discussed	['time', 'is', 'still', 'being', '.']	['The', 'exact', 'time', 'of', 'closure', 'is', 'still', 'being', 'discussed', '.']
+.	punct	discussed	[]	['.']
+These	det	businesses	[]	['These']
+businesses	nsubj	have	['These']	['These', 'businesses']
+currently	advmod	have	[]	['currently']
+have	ROOT	have	['businesses', 'currently', 'close', 'p.m.']	['These', 'businesses', 'currently', 'have', 'to', 'close', 'at', '10', 'p.m.']
+to	aux	close	[]	['to']
+close	xcomp	have	['to', 'at']	['to', 'close', 'at', '10']
+at	prep	close	['10']	['at', '10']
+10	pobj	at	[]	['10']
+p.m.	npadvmod	have	[]	['p.m.']
+Customers	nsubj	have	[]	['Customers']
+may	aux	have	[]	['may']
+no	neg	longer	[]	['no']
+longer	advmod	have	['no']	['no', 'longer']
+have	ROOT	have	['Customers', 'may', 'longer', 'remain', ',', 'and', 'disappear']	['Customers', 'may', 'no', 'longer', 'have', 'to', 'remain', 'in', 'assigned', 'seats', ',', 'and', 'social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity', '.']
+to	aux	remain	[]	['to']
+remain	xcomp	have	['to', 'in']	['to', 'remain', 'in', 'assigned', 'seats']
+in	prep	remain	['seats']	['in', 'assigned', 'seats']
+assigned	amod	seats	[]	['assigned']
+seats	pobj	in	['assigned']	['assigned', 'seats']
+,	punct	have	[]	[',']
+and	cc	have	[]	['and']
+social	amod	requirements	[]	['social']
+distancing	compound	requirements	[]	['distancing']
+requirements	nsubj	disappear	['social', 'distancing', 'in']	['social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and']
+in	prep	requirements	['hospitality']	['in', 'the', 'hospitality', 'and']
+the	det	hospitality	[]	['the']
+hospitality	pobj	in	['the', 'and']	['the', 'hospitality', 'and']
+and	cc	hospitality	[]	['and']
+cultural	amod	sector	[]	['cultural']
+sector	nsubj	disappear	['cultural']	['cultural', 'sector']
+could	aux	disappear	[]	['could']
+disappear	conj	have	['requirements', 'sector', 'could', ',', 'allowing', '.']	['social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity', '.']
+,	punct	disappear	[]	[',']
+allowing	advcl	disappear	['increase']	['allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']
+them	nsubj	increase	[]	['them']
+to	aux	increase	[]	['to']
+increase	ccomp	allowing	['them', 'to', 'attendance']	['them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']
+attendance	dobj	increase	['to']	['attendance', 'to', 'maximum', 'capacity']
+to	prep	attendance	['capacity']	['to', 'maximum', 'capacity']
+maximum	amod	capacity	[]	['maximum']
+capacity	pobj	to	['maximum']	['maximum', 'capacity']
+.	punct	disappear	[]	['.']
+Furthermore	advmod	disappear	[]	['Furthermore']
+,	punct	disappear	[]	[',']
+according	prep	disappear	['to']	['according', 'to', 'sources', 'close', 'to', 'the', 'Cabinet']
+to	prep	according	['sources']	['to', 'sources', 'close', 'to', 'the', 'Cabinet']
+sources	pobj	to	['close']	['sources', 'close', 'to', 'the', 'Cabinet']
+close	amod	sources	['to']	['close', 'to', 'the', 'Cabinet']
+to	prep	close	['Cabinet']	['to', 'the', 'Cabinet']
+the	det	Cabinet	[]	['the']
+Cabinet	pobj	to	['the']	['the', 'Cabinet']
+,	punct	disappear	[]	[',']
+the	det	advice	[]	['the']
+advice	nsubj	disappear	['the', 'work']	['the', 'advice', 'to', 'work', 'from', 'home']
+to	aux	work	[]	['to']
+work	relcl	advice	['to', 'from']	['to', 'work', 'from', 'home']
+from	prep	work	['home']	['from', 'home']
+home	pobj	from	[]	['home']
+will	aux	disappear	[]	['will']
+also	advmod	disappear	[]	['also']
+disappear	ROOT	disappear	['Furthermore', ',', 'according', ',', 'advice', 'will', 'also', '.']	['Furthermore', ',', 'according', 'to', 'sources', 'close', 'to', 'the', 'Cabinet', ',', 'the', 'advice', 'to', 'work', 'from', 'home', 'will', 'also', 'disappear', '.']
+.	punct	disappear	[]	['.']
+The	det	advice	[]	['The']
+current	amod	advice	[]	['current']
+advice	nsubj	been	['The', 'current']	['The', 'current', 'advice']
+has	aux	been	[]	['has']
+been	ROOT	been	['advice', 'has', 'in', 'since', '.']	['The', 'current', 'advice', 'has', 'been', 'in', 'effect', 'since', 'November', '26', '.']
+in	prep	been	['effect']	['in', 'effect']
+effect	pobj	in	[]	['effect']
+since	prep	been	['November']	['since', 'November', '26']
+November	pobj	since	['26']	['November', '26']
+26	nummod	November	[]	['26']
+.	punct	been	[]	['.']
+It	nsubjpass	announced	[]	['It']
+will	aux	announced	[]	['will']
+also	advmod	announced	[]	['also']
+probably	advmod	announced	[]	['probably']
+be	auxpass	announced	[]	['be']
+announced	ROOT	announced	['It', 'will', 'also', 'probably', 'be', 'week', 'lifted', '.']	['It', 'will', 'also', 'probably', 'be', 'announced', 'next', 'week', 'that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be', 'lifted', '.']
+next	amod	week	[]	['next']
+week	npadvmod	announced	['next']	['next', 'week']
+that	mark	lifted	[]	['that']
+the	det	restriction	[]	['the']
+restriction	nsubjpass	lifted	['the', 'receive']	['the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home']
+to	aux	receive	[]	['to']
+receive	acl	restriction	['to', 'people', 'at']	['to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home']
+a	quantmod	four	[]	['a']
+maximum	quantmod	four	[]	['maximum']
+of	quantmod	four	[]	['of']
+four	nummod	people	['a', 'maximum', 'of']	['a', 'maximum', 'of', 'four']
+people	dobj	receive	['four']	['a', 'maximum', 'of', 'four', 'people']
+at	prep	receive	['home']	['at', 'home']
+home	pobj	at	[]	['home']
+will	aux	lifted	[]	['will']
+be	auxpass	lifted	[]	['be']
+lifted	ccomp	announced	['that', 'restriction', 'will', 'be']	['that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be', 'lifted']
+.	punct	announced	[]	['.']
+The	det	Cabinet	[]	['The']
+Cabinet	nsubj	is	['The']	['The', 'Cabinet']
+is	ROOT	is	['Cabinet', 'optimistic', '.']	"['The', 'Cabinet', 'is', '""', 'cautiously', 'optimistic', '""', 'about', 'hospital', 'admissions', '.']"
+""""	punct	optimistic	[]	"['""']"
+cautiously	advmod	optimistic	[]	['cautiously']
+optimistic	acomp	is	"['""', 'cautiously', '""', 'about']"	"['""', 'cautiously', 'optimistic', '""', 'about', 'hospital', 'admissions']"
+""""	punct	optimistic	[]	"['""']"
+about	prep	optimistic	['admissions']	['about', 'hospital', 'admissions']
+hospital	compound	admissions	[]	['hospital']
+admissions	pobj	about	['hospital']	['hospital', 'admissions']
+.	punct	is	[]	['.']
+These	nsubj	increased	[]	['These']
+have	aux	increased	[]	['have']
+increased	ROOT	increased	['These', 'have', 'over', ',', 'but', 'compared', '.']	['These', 'have', 'increased', 'over', 'the', 'last', 'five', 'weeks', ',', 'but', 'at', 'a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus', '.']
+over	prep	increased	['weeks']	['over', 'the', 'last', 'five', 'weeks']
+the	det	weeks	[]	['the']
+last	amod	weeks	[]	['last']
+five	nummod	weeks	[]	['five']
+weeks	pobj	over	['the', 'last', 'five']	['the', 'last', 'five', 'weeks']
+,	punct	increased	[]	[',']
+but	cc	increased	[]	['but']
+at	prep	compared	['rate']	['at', 'a', 'much', 'lower', 'rate']
+a	det	rate	[]	['a']
+much	advmod	lower	[]	['much']
+lower	amod	rate	['much']	['much', 'lower']
+rate	pobj	at	['a', 'lower']	['a', 'much', 'lower', 'rate']
+compared	conj	increased	['at', 'to']	['at', 'a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']
+to	prep	compared	['numbers']	['to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']
+the	det	numbers	[]	['the']
+enormous	amod	numbers	[]	['enormous']
+numbers	pobj	to	['the', 'enormous', 'of']	['the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']
+of	prep	numbers	['infections']	['of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']
+positive	amod	infections	[]	['positive']
+infections	pobj	of	['positive', 'linked']	['positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']
+linked	acl	infections	['to']	['linked', 'to', 'the', 'Omicron', 'virus']
+to	prep	linked	['virus']	['to', 'the', 'Omicron', 'virus']
+the	det	virus	[]	['the']
+Omicron	compound	virus	[]	['Omicron']
+virus	pobj	to	['the', 'Omicron']	['the', 'Omicron', 'virus']
+.	punct	increased	[]	['.']
+""""	punct	is	[]	"['""']"
+The	det	number	[]	['The']
+number	nsubj	is	['The', 'of']	['The', 'number', 'of', 'infections']
+of	prep	number	['infections']	['of', 'infections']
+infections	pobj	of	[]	['infections']
+is	ccomp	said	"['""', 'number', 'high', ',', 'but', 'is']"	"['""', 'The', 'number', 'of', 'infections', 'is', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad']"
+very	advmod	high	[]	['very']
+high	acomp	is	['very']	['very', 'high']
+,	punct	is	[]	[',']
+but	cc	is	[]	['but']
+fortunately	advmod	is	[]	['fortunately']
+the	det	pressure	[]	['the']
+pressure	nsubj	is	['the', 'on']	['the', 'pressure', 'on', 'healthcare']
+on	prep	pressure	['healthcare']	['on', 'healthcare']
+healthcare	pobj	on	[]	['healthcare']
+is	conj	is	['fortunately', 'pressure', 'not', 'bad']	['fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad']
+not	neg	is	[]	['not']
+too	advmod	bad	[]	['too']
+bad	acomp	is	['too']	['too', 'bad']
+,	punct	said	[]	[',']
+""""	punct	said	[]	"['""']"
+said	ROOT	said	"['is', ',', '""', 'Kuipers', 'on', '.']"	"['""', 'The', 'number', 'of', 'infections', 'is', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad', ',', '""', 'said', 'Health', 'Minister', 'Ernst', 'Kuipers', 'on', 'Wednesday', '.']"
+Health	compound	Minister	[]	['Health']
+Minister	compound	Kuipers	['Health']	['Health', 'Minister']
+Ernst	compound	Kuipers	[]	['Ernst']
+Kuipers	nsubj	said	['Minister', 'Ernst']	['Health', 'Minister', 'Ernst', 'Kuipers']
+on	prep	said	['Wednesday']	['on', 'Wednesday']
+Wednesday	pobj	on	[]	['Wednesday']
+.	punct	said	[]	['.']
+Cabinet	compound	members	[]	['Cabinet']
+members	nsubj	want	['Cabinet']	['Cabinet', 'members']
+did	aux	want	[]	['did']
+not	neg	want	[]	['not']
+want	ROOT	want	['members', 'did', 'not', 'anticipate', '.']	['Cabinet', 'members', 'did', 'not', 'want', 'to', 'publicly', 'anticipate', 'any', 'relaxations', '.']
+to	aux	anticipate	[]	['to']
+publicly	advmod	anticipate	[]	['publicly']
+anticipate	xcomp	want	['to', 'publicly', 'relaxations']	['to', 'publicly', 'anticipate', 'any', 'relaxations']
+any	det	relaxations	[]	['any']
+relaxations	dobj	anticipate	['any']	['any', 'relaxations']
+.	punct	want	[]	['.']
+Prime	compound	Minister	[]	['Prime']
+Minister	compound	Rutte	['Prime']	['Prime', 'Minister']
+Mark	compound	Rutte	[]	['Mark']
+Rutte	nsubj	said	['Minister', 'Mark']	['Prime', 'Minister', 'Mark', 'Rutte']
+said	ROOT	said	['Rutte', 'on', 'is', '.']	"['Prime', 'Minister', 'Mark', 'Rutte', 'said', 'on', 'Wednesday', 'that', 'the', 'chance', 'is', '""', 'really', 'high', '""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible', '.']"
+on	prep	said	['Wednesday']	['on', 'Wednesday']
+Wednesday	pobj	on	[]	['Wednesday']
+that	mark	is	[]	['that']
+the	det	chance	[]	['the']
+chance	nsubj	is	['the']	['the', 'chance']
+is	ccomp	said	['that', 'chance', 'high', 'be']	"['that', 'the', 'chance', 'is', '""', 'really', 'high', '""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible']"
+""""	punct	high	[]	"['""']"
+really	advmod	high	[]	['really']
+high	acomp	is	"['""', 'really', '""']"	"['""', 'really', 'high', '""']"
+""""	punct	high	[]	"['""']"
+that	mark	be	[]	['that']
+loosening	csubj	be	['up', 'restrictions']	['loosening', 'up', 'restrictions']
+up	prt	loosening	[]	['up']
+restrictions	dobj	loosening	[]	['restrictions']
+will	aux	be	[]	['will']
+be	ccomp	is	['that', 'loosening', 'will', 'possible']	['that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible']
+possible	acomp	be	[]	['possible']
+.	punct	said	[]	['.']
+Cabinet	compound	ministers	[]	['Cabinet']
+ministers	nsubj	met	['Cabinet']	['Cabinet', 'ministers']
+met	ROOT	met	['ministers', 'for', 'on', ',', 'and', 'meet']	['Cabinet', 'ministers', 'met', 'for', 'an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy', 'on', 'Wednesday', 'morning', ',', 'and', 'the', 'OMT', 'will', 'meet', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']
+for	prep	met	['meeting']	['for', 'an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy']
+an	det	meeting	[]	['an']
+extra	amod	meeting	[]	['extra']
+meeting	pobj	for	['an', 'extra', 'about']	['an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy']
+about	prep	meeting	['policy']	['about', 'the', 'coronavirus', 'policy']
+the	det	policy	[]	['the']
+coronavirus	compound	policy	[]	['coronavirus']
+policy	pobj	about	['the', 'coronavirus']	['the', 'coronavirus', 'policy']
+on	prep	met	['morning']	['on', 'Wednesday', 'morning']
+Wednesday	compound	morning	[]	['Wednesday']
+morning	pobj	on	['Wednesday']	['Wednesday', 'morning']
+,	punct	met	[]	[',']
+and	cc	met	[]	['and']
+the	det	OMT	[]	['the']
+OMT	nsubj	meet	['the']	['the', 'OMT']
+will	aux	meet	[]	['will']
+meet	conj	met	['OMT', 'will', 'again', 'discuss', '.']	['the', 'OMT', 'will', 'meet', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']
+again	advmod	meet	[]	['again']
+to	aux	discuss	[]	['to']
+discuss	advcl	meet	['to', 'issue', 'on']	['to', 'discuss', 'the', 'issue', 'on', 'Friday']
+the	det	issue	[]	['the']
+issue	dobj	discuss	['the']	['the', 'issue']
+on	prep	discuss	['Friday']	['on', 'Friday']
+Friday	pobj	on	[]	['Friday']
+.	punct	meet	[]	['.']
+Rutte	nsubj	said	[]	['Rutte']
+said	ccomp	said	['Rutte', 'inform']	"['Rutte', 'said', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"
+the	det	Cabinet	[]	['the']
+Cabinet	nsubj	inform	['the']	['the', 'Cabinet']
+could	aux	inform	[]	['could']
+inform	ccomp	said	"['Cabinet', 'could', 'Kamer', 'about', ',', '""', 'sort']"	"['the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"
+the	det	Kamer	[]	['the']
+Tweede	compound	Kamer	[]	['Tweede']
+Kamer	dobj	inform	['the', 'Tweede']	['the', 'Tweede', 'Kamer']
+about	prep	inform	['considering']	"['about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend']"
+what	dobj	considering	[]	['what']
+it	nsubj	considering	[]	['it']
+'s	aux	considering	[]	"[""'s""]"
+considering	pcomp	about	"['what', 'it', ""'s"", 'before']"	"['what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend']"
+even	advmod	before	[]	['even']
+before	prep	considering	['even', 'weekend']	['even', 'before', 'the', 'weekend']
+the	det	weekend	[]	['the']
+weekend	pobj	before	['the']	['the', 'weekend']
+,	punct	inform	[]	[',']
+""""	punct	inform	[]	"['""']"
+a	det	sort	[]	['a']
+sort	dobj	inform	['a', 'of']	"['a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"
+of	prep	sort	"[""'"", 'be']"	"['of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"
+'	punct	of	[]	"[""'""]"
+what	nsubj	be	[]	['what']
+could	aux	be	[]	['could']
+be	pcomp	of	['what', 'could', 'package']	"['what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures']"
+'	punct	package	[]	"[""'""]"
+package	attr	be	"[""'"", '""', 'of']"	"[""'"", 'package', '""', 'of', 'measures']"
+""""	punct	package	[]	"['""']"
+of	prep	package	['measures']	['of', 'measures']
+measures	pobj	of	[]	['measures']
+,	punct	said	[]	[',']
+he	nsubj	said	[]	['he']
+said	ROOT	said	['said', ',', 'he', '.']	"['Rutte', 'said', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', ""'s"", 'considering', 'even', 'before', 'the', 'weekend', ',', '""', 'a', 'sort', 'of', ""'"", 'what', 'could', 'be', ""'"", 'package', '""', 'of', 'measures', ',', 'he', 'said', '.']"
+.	punct	said	[]	['.']
+In	prep	have	['addition']	['In', 'addition']
+addition	pobj	In	[]	['addition']
+,	punct	have	[]	[',']
+the	det	Cabinet	[]	['the']
+Cabinet	nsubj	have	['the']	['the', 'Cabinet']
+will	aux	have	[]	['will']
+have	ROOT	have	['In', ',', 'Cabinet', 'will', 'make', '.']	['In', 'addition', ',', 'the', 'Cabinet', 'will', 'have', 'to', 'make', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal', '.']
+to	aux	make	[]	['to']
+make	xcomp	have	['to', 'clear']	['to', 'make', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']
+it	nsubj	clear	[]	['it']
+clear	ccomp	make	['it', 'implemented']	['it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']
+that	mark	implemented	[]	['that']
+all	predet	relaxations	[]	['all']
+these	det	relaxations	[]	['these']
+relaxations	nsubjpass	implemented	['all', 'these']	['all', 'these', 'relaxations']
+may	aux	implemented	[]	['may']
+not	neg	implemented	[]	['not']
+be	auxpass	implemented	[]	['be']
+implemented	advcl	clear	['that', 'relaxations', 'may', 'not', 'be', ',', 'sees']	['that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']
+,	punct	implemented	[]	[',']
+particularly	advmod	sees	[]	['particularly']
+if	mark	sees	[]	['if']
+the	det	OMT	[]	['the']
+OMT	nsubj	sees	['the']	['the', 'OMT']
+sees	advcl	implemented	['particularly', 'if', 'OMT', 'problem']	['particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']
+a	det	problem	[]	['a']
+problem	dobj	sees	['a', 'with']	['a', 'problem', 'with', 'the', 'proposal']
+with	prep	problem	['proposal']	['with', 'the', 'proposal']
+the	det	proposal	[]	['the']
+proposal	pobj	with	['the']	['the', 'proposal']
+.	punct	have	[]	['.']
+Anything	nsubj	taken	[]	['Anything']
+taken	csubjpass	made	['Anything', 'off', 'table', 'in']	['Anything', 'taken', 'off', 'the', 'table', 'in', 'the', 'interim']
+off	prt	taken	[]	['off']
+the	det	table	[]	['the']
+table	dobj	taken	['the']	['the', 'table']
+in	prep	taken	['interim']	['in', 'the', 'interim']
+the	det	interim	[]	['the']
+interim	pobj	in	['the']	['the', 'interim']
+will	aux	made	[]	['will']
+be	auxpass	made	[]	['be']
+made	ROOT	made	['taken', 'will', 'be', 'clear', 'on', '.']	['Anything', 'taken', 'off', 'the', 'table', 'in', 'the', 'interim', 'will', 'be', 'made', 'clear', 'on', 'Tuesday', '.']
+clear	oprd	made	[]	['clear']
+on	prep	made	['Tuesday']	['on', 'Tuesday']
+Tuesday	pobj	on	[]	['Tuesday']
+.	punct	made	[]	['.']
+Far	advmod	reaching	[]	['Far']
+-	punct	reaching	[]	['-']
+reaching	amod	elimination	['Far', '-']	['Far', '-', 'reaching']
+elimination	nsubjpass	announced	['reaching', 'of']	['Far', '-', 'reaching', 'elimination', 'of', 'restrictions']
+of	prep	elimination	['restrictions']	['of', 'restrictions']
+restrictions	pobj	of	[]	['restrictions']
+will	aux	announced	[]	['will']
+also	advmod	announced	[]	['also']
+be	auxpass	announced	[]	['be']
+announced	ROOT	announced	['elimination', 'will', 'also', 'be', 'in', 'in', '.']	['Far', '-', 'reaching', 'elimination', 'of', 'restrictions', 'will', 'also', 'be', 'announced', 'in', 'other', 'European', 'countries', 'in', 'the', 'coming', 'days', '.']
+in	prep	announced	['countries']	['in', 'other', 'European', 'countries']
+other	amod	countries	[]	['other']
+European	amod	countries	[]	['European']
+countries	pobj	in	['other', 'European']	['other', 'European', 'countries']
+in	prep	announced	['days']	['in', 'the', 'coming', 'days']
+the	det	days	[]	['the']
+coming	amod	days	[]	['coming']
+days	pobj	in	['the', 'coming']	['the', 'coming', 'days']
+.	punct	announced	[]	['.']
+For	prep	expects	['example']	['For', 'example']
+example	pobj	For	[]	['example']
+,	punct	expects	[]	[',']
+the	det	minister	[]	['the']
+Belgian	amod	minister	[]	['Belgian']
+minister	nsubj	expects	['the', 'Belgian', 'handling', ',', 'Vandenbroucke']	['the', 'Belgian', 'minister', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke']
+handling	acl	minister	['issues']	['handling', 'coronavirus', 'issues']
+coronavirus	compound	issues	[]	['coronavirus']
+issues	dobj	handling	['coronavirus']	['coronavirus', 'issues']
+,	punct	minister	[]	[',']
+Frank	compound	Vandenbroucke	[]	['Frank']
+Vandenbroucke	appos	minister	['Frank']	['Frank', 'Vandenbroucke']
+,	punct	expects	[]	[',']
+expects	ROOT	expects	['For', ',', 'minister', ',', 'withdrawn', '.']	['For', 'example', ',', 'the', 'Belgian', 'minister', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke', ',', 'expects', 'that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'withdrawn', 'in', 'Belgium', 'next', 'Friday', '.']
+that	mark	withdrawn	[]	['that']
+almost	advmod	all	[]	['almost']
+all	nummod	measures	['almost']	['almost', 'all']
+coronavirus	compound	measures	[]	['coronavirus']
+measures	nsubjpass	withdrawn	['all', 'coronavirus']	['almost', 'all', 'coronavirus', 'measures']
+will	aux	withdrawn	[]	['will']
+be	auxpass	withdrawn	[]	['be']
+withdrawn	ccomp	expects	['that', 'measures', 'will', 'be', 'in', 'Friday']	['that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'withdrawn', 'in', 'Belgium', 'next', 'Friday']
+in	prep	withdrawn	['Belgium']	['in', 'Belgium']
+Belgium	pobj	in	[]	['Belgium']
+next	amod	Friday	[]	['next']
+Friday	npadvmod	withdrawn	['next']	['next', 'Friday']
+.	punct	expects	[]	['.']
