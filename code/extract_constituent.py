@@ -21,11 +21,12 @@ def write_features(dataframe, outfile):
     dataframe.to_csv(path_or_buf=outfile, sep="\t", encoding="utf-8")
 
 
-parse = read_parse_result("../data/spacy_parse.tsv")
-constituent_of_head = extract_constituent_of_head(parse)
+if __name__ == "__main__":
+    parse = read_parse_result("../data/spacy_parse.tsv")
+    constituent_of_head = extract_constituent_of_head(parse)
 
-features_df = pd.DataFrame({"token": parse["token"],
-                            "constituent_of_head": constituent_of_head})
+    features_df = pd.DataFrame({"token": parse["token"],
+                                "constituent_of_head": constituent_of_head})
 
-outfile = "../data/features.tsv"
-write_features(features_df, outfile)
+    outfile = "../data/features.tsv"
+    write_features(features_df, outfile)
