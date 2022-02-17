@@ -1,15 +1,15 @@
 # NLP-technology-assignment-1
 Solutions for the Syntax part of the assignment
 
-AUTHORS
+## AUTHORS
 ------------------
-> A.M. Dobrzeniecka (Alicja)
-> E.H.W. Galjaard (Ellemijn
-> T.A. Wisman (Tessel)
-> Y.C. Li (Roderick)
+##### A.M. Dobrzeniecka (Alicja)
+##### E.H.W. Galjaard (Ellemijn
+##### T.A. Wisman (Tessel)
+##### Y.C. Li (Roderick)
 
 
-TABLE OF CONTENTS
+## TABLE OF CONTENTS
 -------------------
 ```
 ├── code             
