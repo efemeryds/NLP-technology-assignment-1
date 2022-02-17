@@ -16,6 +16,7 @@ import nltk
 import spacy
 import networkx as nx
 import pandas as pd
+import matplotlib.pyplot as plt
 
 nltk.download('punkt')
 nlp = spacy.load("en_core_web_sm")
@@ -45,6 +46,10 @@ def find_shortest_path(text_list):
                                   '{0}'.format(child.lower_)))
 
             graph = nx.Graph(edges)
+
+            # pos = nx.spring_layout(graph)
+            # nx.draw_networkx_edges(graph, pos, arrows=False)
+            # plt.show()
 
             entity1 = str(subject).lower()
             entity2 = str(direct_object).lower()
