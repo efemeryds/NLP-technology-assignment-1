@@ -14,9 +14,13 @@ def parse_doc(text):
     #print(*[f'id: {word.id}\tword: {word.text}\thead id: {word.head}\thead: {sent.words[word.head-1].text if word.head > 0 else "root"}\tdeprel: {word.deprel}' for sent in doc.sentences for word in sent.words], sep='\n')
     return doc
 
-def extract_target(target, parsed_sentence):
+def extract_target(target, parsed_sentence): 
+    ''' extracts target word in parsed sentence 
+    param: target: the target word (str)
+    param: parsed_sentenced: a stanza doc object of the parsed sentence 
+    returns: target_in_doc: the stanza word object corresponding to the target'''
     target_in_doc = []
-    for doc_el in parsed_sentence.words:
+    for doc_el in parsed_sentence.words: # go through sentence
         if doc_el.text == target:
             target_in_doc.append(doc_el)
     if len(target_in_doc) <=0:
@@ -25,14 +29,23 @@ def extract_target(target, parsed_sentence):
     return target_in_doc 
 
 def get_head_of_targetword(target, sentence):
+    '''
+    param: target: the target word (str)
+    param: sentence: the sentence containing the target word
+    returns: target_head: the head of the target word '''
     #parsed_sentence = parse_doc(sentence)
     target_in_doc = extract_target(target, sentence)
     for target_elem in target_in_doc:
         head_id = target_elem.head
         target_head = sentence.words[head_id-1].text if head_id > 0 else "root"
-        print(target, 'head:', target_head)
+        print('head of', target, ':\t',target_head)
+        return target_head
+
 
 testfile = read_file('..\parsetest_ams.txt')
 print(''.join(testfile))
-doc = parse_doc(''.join(testfile))
-get_head_of_targetword('universities', doc.sentences[0])
+#doc = parse_doc(''.join(testfile))
+#get_head_of_targetword('some', doc.sentences[0])
+question = 'what did Anne make for breakfast?'
+question2 = 'who did Anne get?'
+modify_question(question)
