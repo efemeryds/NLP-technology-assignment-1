@@ -36,7 +36,7 @@ Sentence level:
 - Dependency path
 
 ## HOW TO USE IT
-- STEP 1. Install libraries specified in **requirements.txt**
+- STEP 1. Install libraries specified in **requirements.txt** by running "pip install -r requirements.txt"
 - STEP 2. Run `parse_data.py` in **code/** to parse **data/article.txt** 
 - STEP 3. Run `extract_*.py` in **code/** to get features from **data/article.txt** 
 - STEP 4. Check the results in **results/**
