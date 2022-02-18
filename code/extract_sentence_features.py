@@ -16,14 +16,29 @@ import nltk
 import spacy
 import networkx as nx
 import pandas as pd
-import matplotlib.pyplot as plt
+import stanza
+# import matplotlib.pyplot as plt
+# stanza.download('en')
 
 nltk.download('punkt')
-nlp = spacy.load("en_core_web_sm")
+sub_labels = []
+
+
+def syntax(text_list):
+    nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,constituency')
+    tree_list = []
+    for sentence in text_list:
+        doc = nlp(sentence)
+        tree = doc.sentences[0].constituency
+        tree_list.append(tree)
+    return tree_list
 
 
 def find_shortest_path(text_list):
-    df_list = []
+    nlp = spacy.load("en_core_web_sm")
+    first_list = []
+    second_list = []
+    path_list = []
     # Load spacy's dependency tree into a networkx graph
     for sentence in text_list:
         edges = []
@@ -34,7 +49,9 @@ def find_shortest_path(text_list):
         direct_object = [tok for tok in doc if (tok.dep_ == "dobj")]
 
         if (len(direct_object) < 1) or (len(subject) < 1):
-            df_list.append({"sentence": sentence, "first_entity": None, "second_entity": None, "shortest_path": None})
+            first_list.append(None)
+            second_list.append(None)
+            path_list.append(None)
             continue
 
         else:
@@ -54,11 +71,11 @@ def find_shortest_path(text_list):
             entity1 = str(subject).lower()
             entity2 = str(direct_object).lower()
             shortest_path = nx.shortest_path(graph, source=entity1, target=entity2)
-            df_list.append({"sentence": sentence, "first_entity": entity1, "second_entity": entity2,
-                            "shortest_path": shortest_path})
+            first_list.append(entity1)
+            second_list.append(entity2)
+            path_list.append(shortest_path)
 
-    final_df = pd.DataFrame(df_list)
-    return final_df
+    return first_list, second_list, path_list
 
 
 if __name__ == "__main__":
@@ -68,6 +85,12 @@ if __name__ == "__main__":
 
     # convert text into a list of sentences
     text_list_input = nltk.tokenize.sent_tokenize(content)
-    shortest_path_results = find_shortest_path(text_list_input)
-    shortest_path_results.to_csv("../results/shortest_dependency_path.csv")
+    tree = syntax(text_list_input)
+    first, second, path = find_shortest_path(text_list_input)
+    results = pd.DataFrame({"sentence": text_list_input,
+                            "full_tree": tree,
+                            "first_entity": first,
+                            "second_entity": second,
+                            "shortest_dep_path": path})
+    results.to_csv("../results/sentence_features.csv")
     print('DONE')
