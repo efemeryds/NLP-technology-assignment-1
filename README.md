@@ -5,6 +5,16 @@ Solutions for the Syntax part of the assignment
 ------------------
 A.M. Dobrzeniecka (Alicja), E.H.W. Galjaard (Ellemijn), T.A. Wisman (Tessel), Y.C. Li (Roderick)
 
+## IMPLEMENTED FEATURES
+- Dependency path
+- Dependency label
+- Syntax path
+
+## HOW TO USE IT
+- Install all of the libraries, it may be needed to additionally run: python3 -m spacy download en_core_web_sm
+- All of the code in stored in the /code folder
+- Run each file seperately to see how it works
+- All of the final files are already in the /data folder
 
 ## TABLE OF CONTENTS
 -------------------
