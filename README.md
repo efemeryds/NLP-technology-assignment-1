@@ -10,7 +10,7 @@ A.M. Dobrzeniecka (Alicja), E.H.W. Galjaard (Ellemijn), T.A. Wisman (Tessel), Y.
 ```
 ├── code 
 │   ├── extract_head_of_target.py 
-│   ├── extract_sentence_features.ipynb
+│   ├── extract_sentence_features.py
 │   ├── extract_token_features.py
 │   ├── parse_data.py            
 ├── data    
