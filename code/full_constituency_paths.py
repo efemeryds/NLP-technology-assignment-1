@@ -1,7 +1,7 @@
 import spacy
-import nltk
 import pandas as pd
 import stanza
+
 
 # run in terminal, if you don't have the package: python3 -m spacy download en_core_web_sm
 
@@ -68,7 +68,7 @@ def run_pipeline(path_to_data):
 
 if __name__ == "__main__":
     data_path = "../data/article_with_eof_characters.txt"
-    outfile = "../data/results_constituency_paths.tsv"
+    outfile = "../results/results_constituency_paths.tsv"
 
     df_structure = prepare_data(data_path)
     labels = run_pipeline(data_path)
@@ -79,4 +79,4 @@ if __name__ == "__main__":
     # add new column to dataframe
     df_structure["paths"] = labels
 
-    df_structure.to_csv("../data/full_constituents.csv")
+    df_structure.to_csv("../results/full_constituents.csv")

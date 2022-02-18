@@ -30,6 +30,6 @@ if __name__ == "__main__":
     # convert text into a list of sentences
     text_list_input = nltk.tokenize.sent_tokenize(content)
     const = syntax(text_list_input)
-    const.to_csv("../data/constituency.csv")
+    const.to_csv("../results/stanza_paths.csv")
     print('DONE')
 

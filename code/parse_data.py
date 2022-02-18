@@ -2,7 +2,7 @@ import spacy
 import pandas as pd
 
 text_path = "../data/article.txt"
-outfile = "../data/spacy_parse.tsv"
+outfile = "../results/spacy_parse.tsv"
 
 with open(text_path, encoding="utf-8") as f:
     content = f.read()
