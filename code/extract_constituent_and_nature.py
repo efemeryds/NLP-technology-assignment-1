@@ -46,7 +46,7 @@ def write_features(dataframe, outfile):
     dataframe.to_csv(path_or_buf=outfile, sep="\t", encoding="utf-8")
 
 
-parse = read_parse_result("../data/spacy_parse.tsv")
+parse = read_parse_result("../results/spacy_parse.tsv")
 constituent_of_head = extract_constituent_of_head(parse)
 nature = extract_nature_of_dep(parse)
 
@@ -54,5 +54,5 @@ features_df = pd.DataFrame({"token": parse["token"],
                             "constituent_of_head": constituent_of_head,
                            "nature": nature})
 
-outfile = "../data/features.tsv"
+outfile = "../results/extract_constituent_and_nature.py.tsv"
 write_features(features_df, outfile)

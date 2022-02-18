@@ -55,5 +55,5 @@ if __name__ == "__main__":
                                 "constituent_of_head": constituent_of_head,
                                 "nature": nature})
 
-    outfile = "../results/features.tsv"
+    outfile = "../results/constituent_and_nature.tsv"
     write_features(features_df, outfile)

@@ -1,0 +1,630 @@
+	token	constituent_of_head	nature
+0	The	NOT_HEAD	OTH
+1	Cabinet	['The', 'Cabinet']	OTH
+2	hopes	['The', 'Cabinet', 'hopes', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	VERB
+3	to	NOT_HEAD	OTH
+4	be	['to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	VERB
+5	able	['able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	OTH
+6	to	NOT_HEAD	OTH
+7	abolish	['to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	VERB
+8	most	['most', 'of', 'the', 'remaining', 'corona', 'measures']	OTH
+9	of	['of', 'the', 'remaining', 'corona', 'measures']	PREP
+10	the	NOT_HEAD	OTH
+11	remaining	NOT_HEAD	MOD
+12	corona	NOT_HEAD	MOD
+13	measures	['the', 'remaining', 'corona', 'measures']	OTH
+14	by	['by', 'the', 'beginning', 'of', 'March']	PREP
+15	the	NOT_HEAD	OTH
+16	beginning	['the', 'beginning', 'of', 'March']	OTH
+17	of	['of', 'March']	PREP
+18	March	NOT_HEAD	OTH
+19	,	NOT_HEAD	OTH
+20	including	['including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	PREP
+21	the	NOT_HEAD	OTH
+22	use	['the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule']	OTH
+23	of	['of', 'face', 'masks']	PREP
+24	face	NOT_HEAD	MOD
+25	masks	['face', 'masks']	OTH
+26	and	NOT_HEAD	OTH
+27	the	NOT_HEAD	OTH
+28	1.5	NOT_HEAD	MOD
+29	meter	['1.5', 'meter']	OTH
+30	social	NOT_HEAD	MOD
+31	distancing	['social', 'distancing']	MOD
+32	rule	['the', '1.5', 'meter', 'social', 'distancing', 'rule']	OTH
+33	,	NOT_HEAD	OTH
+34	sources	NOT_HEAD	OTH
+35	said	['The', 'Cabinet', 'hopes', 'to', 'be', 'able', 'to', 'abolish', 'most', 'of', 'the', 'remaining', 'corona', 'measures', 'by', 'the', 'beginning', 'of', 'March', ',', 'including', 'the', 'use', 'of', 'face', 'masks', 'and', 'the', '1.5', 'meter', 'social', 'distancing', 'rule', ',', 'sources', 'said', '.']	VERB
+36	.	NOT_HEAD	OTH
+37	Those	NOT_HEAD	OTH
+38	wanting	['Those', 'wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events']	VERB
+39	to	NOT_HEAD	OTH
+40	attend	['to', 'attend', 'large', 'festivals', 'and', 'events']	VERB
+41	large	NOT_HEAD	MOD
+42	festivals	['large', 'festivals', 'and', 'events']	OTH
+43	and	NOT_HEAD	OTH
+44	events	NOT_HEAD	OTH
+45	will	NOT_HEAD	OTH
+46	be	NOT_HEAD	OTH
+47	required	['Those', 'wanting', 'to', 'attend', 'large', 'festivals', 'and', 'events', 'will', 'be', 'required', 'to', 'show', 'a', 'negative', 'coronavirus', 'test', '.']	VERB
+48	to	NOT_HEAD	OTH
+49	show	['to', 'show', 'a', 'negative', 'coronavirus', 'test']	VERB
+50	a	NOT_HEAD	OTH
+51	negative	NOT_HEAD	MOD
+52	coronavirus	NOT_HEAD	MOD
+53	test	['a', 'negative', 'coronavirus', 'test']	OTH
+54	.	NOT_HEAD	OTH
+55	The	NOT_HEAD	OTH
+56	Cabinet	['The', 'Cabinet']	OTH
+57	first	NOT_HEAD	TUN
+58	wants	['The', 'Cabinet', 'first', 'wants', 'to', 'hear', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')', 'whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'is', 'a', 'responsible', 'course', 'of', 'action', '.']	VERB
+59	to	NOT_HEAD	OTH
+60	hear	['to', 'hear', 'from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']	VERB
+61	from	['from', 'the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']	PREP
+62	the	NOT_HEAD	OTH
+63	Outbreak	NOT_HEAD	MOD
+64	Management	['Outbreak', 'Management']	MOD
+65	Team	['the', 'Outbreak', 'Management', 'Team', '(', 'OMT', ')']	OTH
+66	(	NOT_HEAD	OTH
+67	OMT	NOT_HEAD	MOD
+68	)	NOT_HEAD	OTH
+69	whether	NOT_HEAD	OTH
+70	such	NOT_HEAD	MOD
+71	extensive	NOT_HEAD	MOD
+72	relaxation	['such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands']	OTH
+73	of	['of', 'the', 'restrictions', 'in', 'the', 'Netherlands']	PREP
+74	the	NOT_HEAD	OTH
+75	restrictions	['the', 'restrictions', 'in', 'the', 'Netherlands']	OTH
+76	in	['in', 'the', 'Netherlands']	PREP
+77	the	NOT_HEAD	OTH
+78	Netherlands	['the', 'Netherlands']	OTH
+79	is	['whether', 'such', 'extensive', 'relaxation', 'of', 'the', 'restrictions', 'in', 'the', 'Netherlands', 'is', 'a', 'responsible', 'course', 'of', 'action']	VERB
+80	a	NOT_HEAD	OTH
+81	responsible	NOT_HEAD	MOD
+82	course	['a', 'responsible', 'course', 'of', 'action']	OTH
+83	of	['of', 'action']	PREP
+84	action	NOT_HEAD	OTH
+85	.	NOT_HEAD	OTH
+86	Coronavirus	NOT_HEAD	MOD
+87	infections	['Coronavirus', 'infections', 'in', 'the', 'country']	OTH
+88	in	['in', 'the', 'country']	PREP
+89	the	NOT_HEAD	OTH
+90	country	['the', 'country']	OTH
+91	are	['Coronavirus', 'infections', 'in', 'the', 'country', 'are', 'currently', 'at', 'an', 'all', '-', 'time', 'high', ',', 'and', 'Covid-19', 'hospitalizations', 'have', 'been', 'rising', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']	VERB
+92	currently	NOT_HEAD	TUN
+93	at	['at', 'an', 'all', '-', 'time', 'high']	PREP
+94	an	NOT_HEAD	OTH
+95	all	NOT_HEAD	OTH
+96	-	NOT_HEAD	OTH
+97	time	['all', '-', 'time']	OTH
+98	high	['an', 'all', '-', 'time', 'high']	OTH
+99	,	NOT_HEAD	OTH
+100	and	NOT_HEAD	OTH
+101	Covid-19	NOT_HEAD	MOD
+102	hospitalizations	['Covid-19', 'hospitalizations']	OTH
+103	have	NOT_HEAD	OTH
+104	been	NOT_HEAD	OTH
+105	rising	['Covid-19', 'hospitalizations', 'have', 'been', 'rising', 'for', 'five', 'weeks', ',', 'but', 'intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low', '.']	OTH
+106	for	['for', 'five', 'weeks']	PREP
+107	five	NOT_HEAD	MOD
+108	weeks	['five', 'weeks']	OTH
+109	,	NOT_HEAD	OTH
+110	but	NOT_HEAD	OTH
+111	intensive	NOT_HEAD	MOD
+112	care	NOT_HEAD	MOD
+113	admissions	['intensive', 'care', 'admissions']	OTH
+114	have	NOT_HEAD	OTH
+115	remained	['intensive', 'care', 'admissions', 'have', 'remained', 'near', 'a', '100', '-', 'day', 'low']	OTH
+116	near	['near', 'a', '100', '-', 'day', 'low']	PREP
+117	a	NOT_HEAD	OTH
+118	100	NOT_HEAD	MOD
+119	-	NOT_HEAD	OTH
+120	day	['100', '-', 'day']	MOD
+121	low	['a', '100', '-', 'day', 'low']	OTH
+122	.	NOT_HEAD	OTH
+123	From	['From', 'February', '25']	PREP
+124	February	['February', '25']	OTH
+125	25	NOT_HEAD	MOD
+126	,	NOT_HEAD	OTH
+127	nightlife	NOT_HEAD	MOD
+128	locations	['nightlife', 'locations', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating']	OTH
+129	,	NOT_HEAD	OTH
+130	festivals	['festivals', 'and', 'events']	OTH
+131	and	NOT_HEAD	OTH
+132	events	NOT_HEAD	OTH
+133	without	['without', 'fixed', 'seating']	PREP
+134	fixed	NOT_HEAD	MOD
+135	seating	['fixed', 'seating']	OTH
+136	may	NOT_HEAD	OTH
+137	already	NOT_HEAD	TUN
+138	be	['From', 'February', '25', ',', 'nightlife', 'locations', ',', 'festivals', 'and', 'events', 'without', 'fixed', 'seating', 'may', 'already', 'be', 'open', 'to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection', '.']	VERB
+139	open	['open', 'to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	OTH
+140	to	['to', 'people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	PREP
+141	people	['people', 'who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	OTH
+142	who	NOT_HEAD	OTH
+143	test	['who', 'test', 'negative', 'for', 'the', 'coronavirus', 'infection']	MOD
+144	negative	NOT_HEAD	OTH
+145	for	['for', 'the', 'coronavirus', 'infection']	PREP
+146	the	NOT_HEAD	OTH
+147	coronavirus	NOT_HEAD	MOD
+148	infection	['the', 'coronavirus', 'infection']	OTH
+149	.	NOT_HEAD	OTH
+150	These	NOT_HEAD	OTH
+151	changes	['These', 'changes', 'to', 'policy', 'in', 'the', 'Netherlands']	OTH
+152	to	NOT_HEAD	OTH
+153	policy	['to', 'policy', 'in', 'the', 'Netherlands']	MOD
+154	in	['in', 'the', 'Netherlands']	PREP
+155	the	NOT_HEAD	OTH
+156	Netherlands	['the', 'Netherlands']	OTH
+157	are	NOT_HEAD	OTH
+158	expected	['These', 'changes', 'to', 'policy', 'in', 'the', 'Netherlands', 'are', 'expected', 'to', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'Tuesday', '.']	VERB
+159	to	NOT_HEAD	OTH
+160	be	NOT_HEAD	OTH
+161	announced	['to', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'Tuesday']	VERB
+162	at	['at', 'a', 'press', 'conference', 'on', 'Tuesday']	PREP
+163	a	NOT_HEAD	OTH
+164	press	NOT_HEAD	MOD
+165	conference	['a', 'press', 'conference', 'on', 'Tuesday']	OTH
+166	on	['on', 'Tuesday']	PREP
+167	Tuesday	NOT_HEAD	OTH
+168	.	NOT_HEAD	OTH
+169	This	NOT_HEAD	OTH
+170	week	['This', 'week']	OTH
+171	,	NOT_HEAD	OTH
+172	Kuipers	NOT_HEAD	OTH
+173	said	"""['This', 'week', ',', 'Kuipers', 'said', 'the', 'government', """"'s"""", 'new', 'focus', 'is', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council', '.']"""	VERB
+174	the	NOT_HEAD	OTH
+175	government	"""['the', 'government', """"'s""""]"""	MOD
+176	's	NOT_HEAD	OTH
+177	new	NOT_HEAD	MOD
+178	focus	"""['the', 'government', """"'s"""", 'new', 'focus']"""	OTH
+179	is	"""['the', 'government', """"'s"""", 'new', 'focus', 'is', 'to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']"""	VERB
+180	to	NOT_HEAD	OTH
+181	keep	['to', 'keep', 'society', 'open', ',', 'which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']	VERB
+182	society	NOT_HEAD	MOD
+183	open	['society', 'open', ',']	OTH
+184	,	NOT_HEAD	OTH
+185	which	NOT_HEAD	OTH
+186	was	NOT_HEAD	OTH
+187	celebrated	['which', 'was', 'celebrated', 'by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']	MOD
+188	by	['by', 'the', 'mayors', 'on', 'the', 'Security', 'Council']	OTH
+189	the	NOT_HEAD	OTH
+190	mayors	['the', 'mayors', 'on', 'the', 'Security', 'Council']	OTH
+191	on	['on', 'the', 'Security', 'Council']	PREP
+192	the	NOT_HEAD	OTH
+193	Security	NOT_HEAD	MOD
+194	Council	['the', 'Security', 'Council']	OTH
+195	.	NOT_HEAD	OTH
+196	If	NOT_HEAD	OTH
+197	the	NOT_HEAD	OTH
+198	experts	['the', 'experts']	OTH
+199	think	"""['If', 'the', 'experts', 'think', 'it', """"'s"""", 'justified']"""	MOD
+200	it	NOT_HEAD	OTH
+201	's	"""['it', """"'s"""", 'justified']"""	VERB
+202	justified	NOT_HEAD	OTH
+203	,	NOT_HEAD	OTH
+204	further	NOT_HEAD	MOD
+205	steps	['further', 'steps']	OTH
+206	will	NOT_HEAD	OTH
+207	probably	NOT_HEAD	TUN
+208	be	NOT_HEAD	OTH
+209	taken	"""['If', 'the', 'experts', 'think', 'it', """"'s"""", 'justified', ',', 'further', 'steps', 'will', 'probably', 'be', 'taken', 'at', 'the', 'beginning', 'of', 'March', '.']"""	VERB
+210	at	['at', 'the', 'beginning', 'of', 'March']	PREP
+211	the	NOT_HEAD	OTH
+212	beginning	['the', 'beginning', 'of', 'March']	OTH
+213	of	['of', 'March']	PREP
+214	March	NOT_HEAD	OTH
+215	.	NOT_HEAD	OTH
+216	These	NOT_HEAD	OTH
+217	relaxations	['These', 'relaxations']	OTH
+218	may	NOT_HEAD	OTH
+219	be	NOT_HEAD	OTH
+220	announced	['These', 'relaxations', 'may', 'be', 'announced', 'at', 'a', 'press', 'conference', 'on', 'March', '8', ',', 'but', 'that', 'is', 'not', 'yet', 'certain', '.']	VERB
+221	at	['at', 'a', 'press', 'conference', 'on', 'March', '8']	PREP
+222	a	NOT_HEAD	OTH
+223	press	NOT_HEAD	MOD
+224	conference	['a', 'press', 'conference', 'on', 'March', '8']	OTH
+225	on	['on', 'March', '8']	PREP
+226	March	['March', '8']	OTH
+227	8	NOT_HEAD	MOD
+228	,	NOT_HEAD	OTH
+229	but	NOT_HEAD	OTH
+230	that	NOT_HEAD	OTH
+231	is	['that', 'is', 'not', 'yet', 'certain', '.']	OTH
+232	not	NOT_HEAD	INV
+233	yet	NOT_HEAD	TUN
+234	certain	NOT_HEAD	OTH
+235	.	NOT_HEAD	OTH
+236	Earlier	['Earlier', 'in', 'the', 'day']	TUN
+237	in	['in', 'the', 'day']	PREP
+238	the	NOT_HEAD	OTH
+239	day	['the', 'day']	OTH
+240	it	NOT_HEAD	OTH
+241	was	NOT_HEAD	OTH
+242	emerged	['Earlier', 'in', 'the', 'day', 'it', 'was', 'emerged', 'that', 'the', 'Cabinet', 'wants', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week', '.']	VERB
+243	that	NOT_HEAD	OTH
+244	the	NOT_HEAD	OTH
+245	Cabinet	['the', 'Cabinet']	OTH
+246	wants	['that', 'the', 'Cabinet', 'wants', 'to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']	VERB
+247	to	NOT_HEAD	OTH
+248	extend	['to', 'extend', 'the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas', 'next', 'week']	VERB
+249	the	NOT_HEAD	OTH
+250	opening	NOT_HEAD	MOD
+251	hours	['the', 'opening', 'hours', 'for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']	OTH
+252	for	['for', 'the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']	PREP
+253	the	NOT_HEAD	OTH
+254	hospitality	NOT_HEAD	MOD
+255	industry	['the', 'hospitality', 'industry', ',', 'theaters', 'and', 'cinemas']	OTH
+256	,	NOT_HEAD	OTH
+257	theaters	['theaters', 'and', 'cinemas']	OTH
+258	and	NOT_HEAD	OTH
+259	cinemas	NOT_HEAD	OTH
+260	next	NOT_HEAD	MOD
+261	week	['next', 'week']	OTH
+262	.	NOT_HEAD	OTH
+263	The	NOT_HEAD	OTH
+264	exact	NOT_HEAD	MOD
+265	time	['The', 'exact', 'time', 'of', 'closure']	OTH
+266	of	['of', 'closure']	PREP
+267	closure	NOT_HEAD	OTH
+268	is	NOT_HEAD	OTH
+269	still	NOT_HEAD	TUN
+270	being	NOT_HEAD	OTH
+271	discussed	['The', 'exact', 'time', 'of', 'closure', 'is', 'still', 'being', 'discussed', '.']	VERB
+272	.	NOT_HEAD	OTH
+273	These	NOT_HEAD	OTH
+274	businesses	['These', 'businesses']	OTH
+275	currently	NOT_HEAD	TUN
+276	have	['These', 'businesses', 'currently', 'have', 'to', 'close', 'at', '10', 'p.m.', 'Customers', 'may', 'no', 'longer', 'have', 'to', 'remain', 'in', 'assigned', 'seats', ',', 'and', 'social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity', '.']	VERB
+277	to	NOT_HEAD	OTH
+278	close	['to', 'close', 'at', '10', 'p.m.']	VERB
+279	at	['at', '10', 'p.m.']	PREP
+280	10	NOT_HEAD	MOD
+281	p.m.	['10', 'p.m.']	OTH
+282	Customers	NOT_HEAD	OTH
+283	may	NOT_HEAD	OTH
+284	no	NOT_HEAD	INV
+285	longer	['no', 'longer']	TUN
+286	have	['Customers', 'may', 'no', 'longer', 'have', 'to', 'remain', 'in', 'assigned', 'seats', ',', 'and', 'social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']	OTH
+287	to	NOT_HEAD	OTH
+288	remain	['to', 'remain', 'in', 'assigned', 'seats']	VERB
+289	in	['in', 'assigned', 'seats']	PREP
+290	assigned	NOT_HEAD	MOD
+291	seats	['assigned', 'seats']	OTH
+292	,	NOT_HEAD	OTH
+293	and	NOT_HEAD	OTH
+294	social	NOT_HEAD	MOD
+295	distancing	NOT_HEAD	MOD
+296	requirements	['social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector']	OTH
+297	in	['in', 'the', 'hospitality', 'and', 'cultural', 'sector']	PREP
+298	the	NOT_HEAD	OTH
+299	hospitality	['the', 'hospitality', 'and', 'cultural', 'sector']	OTH
+300	and	NOT_HEAD	OTH
+301	cultural	NOT_HEAD	MOD
+302	sector	['cultural', 'sector']	OTH
+303	could	NOT_HEAD	OTH
+304	disappear	['social', 'distancing', 'requirements', 'in', 'the', 'hospitality', 'and', 'cultural', 'sector', 'could', 'disappear', ',', 'allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']	OTH
+305	,	NOT_HEAD	OTH
+306	allowing	['allowing', 'them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']	MOD
+307	them	NOT_HEAD	OTH
+308	to	NOT_HEAD	OTH
+309	increase	['them', 'to', 'increase', 'attendance', 'to', 'maximum', 'capacity']	VERB
+310	attendance	['attendance', 'to', 'maximum', 'capacity']	OTH
+311	to	['to', 'maximum', 'capacity']	PREP
+312	maximum	NOT_HEAD	MOD
+313	capacity	['maximum', 'capacity']	OTH
+314	.	NOT_HEAD	OTH
+315	Furthermore	NOT_HEAD	TUN
+316	,	NOT_HEAD	OTH
+317	according	['according', 'to', 'sources', 'close', 'to', 'the', 'Cabinet']	PREP
+318	to	['to', 'sources', 'close', 'to', 'the', 'Cabinet']	PREP
+319	sources	['sources', 'close', 'to', 'the', 'Cabinet']	OTH
+320	close	['close', 'to', 'the', 'Cabinet']	MOD
+321	to	['to', 'the', 'Cabinet']	PREP
+322	the	NOT_HEAD	OTH
+323	Cabinet	['the', 'Cabinet']	OTH
+324	,	NOT_HEAD	OTH
+325	the	NOT_HEAD	OTH
+326	advice	['the', 'advice', 'to', 'work', 'from', 'home']	OTH
+327	to	NOT_HEAD	OTH
+328	work	['to', 'work', 'from', 'home']	MOD
+329	from	['from', 'home']	PREP
+330	home	NOT_HEAD	OTH
+331	will	NOT_HEAD	OTH
+332	also	NOT_HEAD	TUN
+333	disappear	['Furthermore', ',', 'according', 'to', 'sources', 'close', 'to', 'the', 'Cabinet', ',', 'the', 'advice', 'to', 'work', 'from', 'home', 'will', 'also', 'disappear', '.']	VERB
+334	.	NOT_HEAD	OTH
+335	The	NOT_HEAD	OTH
+336	current	NOT_HEAD	MOD
+337	advice	['The', 'current', 'advice']	OTH
+338	has	NOT_HEAD	OTH
+339	been	['The', 'current', 'advice', 'has', 'been', 'in', 'effect', 'since', 'November', '26', '.']	VERB
+340	in	['in', 'effect']	PREP
+341	effect	NOT_HEAD	OTH
+342	since	['since', 'November', '26']	PREP
+343	November	['November', '26']	OTH
+344	26	NOT_HEAD	MOD
+345	.	NOT_HEAD	OTH
+346	It	NOT_HEAD	OTH
+347	will	NOT_HEAD	OTH
+348	also	NOT_HEAD	TUN
+349	probably	NOT_HEAD	TUN
+350	be	NOT_HEAD	OTH
+351	announced	['It', 'will', 'also', 'probably', 'be', 'announced', 'next', 'week', 'that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be', 'lifted', '.']	VERB
+352	next	NOT_HEAD	MOD
+353	week	['next', 'week']	OTH
+354	that	NOT_HEAD	OTH
+355	the	NOT_HEAD	OTH
+356	restriction	['the', 'restriction', 'to', 'receive', 'a', 'maximum']	OTH
+357	to	NOT_HEAD	OTH
+358	receive	['to', 'receive', 'a', 'maximum']	MOD
+359	a	NOT_HEAD	OTH
+360	maximum	['a', 'maximum']	OTH
+361	of	NOT_HEAD	MOD
+362	four	['of', 'four']	MOD
+363	people	['of', 'four', 'people', 'at', 'home']	OTH
+364	at	['at', 'home']	PREP
+365	home	NOT_HEAD	OTH
+366	will	NOT_HEAD	OTH
+367	be	NOT_HEAD	OTH
+368	lifted	['that', 'the', 'restriction', 'to', 'receive', 'a', 'maximum', 'of', 'four', 'people', 'at', 'home', 'will', 'be', 'lifted']	VERB
+369	.	NOT_HEAD	OTH
+370	The	NOT_HEAD	OTH
+371	Cabinet	['The', 'Cabinet']	OTH
+372	is	"""['The', 'Cabinet', 'is', '""""', 'cautiously', 'optimistic', '""""', 'about', 'hospital', 'admissions', '.']"""	VERB
+373	""""""""""	NOT_HEAD	OTH
+374	cautiously	NOT_HEAD	TUN
+375	optimistic	"""['""""', 'cautiously', 'optimistic', '""""', 'about', 'hospital', 'admissions']"""	OTH
+376	""""""""""	NOT_HEAD	OTH
+377	about	['about', 'hospital', 'admissions']	PREP
+378	hospital	NOT_HEAD	MOD
+379	admissions	['hospital', 'admissions']	OTH
+380	.	NOT_HEAD	OTH
+381	These	NOT_HEAD	OTH
+382	have	NOT_HEAD	OTH
+383	increased	['These', 'have', 'increased', 'over', 'the', 'last', 'five', 'weeks', ',', 'but', 'at', 'a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus', '.']	VERB
+384	over	['over', 'the', 'last', 'five', 'weeks']	PREP
+385	the	NOT_HEAD	OTH
+386	last	NOT_HEAD	MOD
+387	five	NOT_HEAD	MOD
+388	weeks	['the', 'last', 'five', 'weeks']	OTH
+389	,	NOT_HEAD	OTH
+390	but	NOT_HEAD	OTH
+391	at	['at', 'a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	OTH
+392	a	NOT_HEAD	OTH
+393	much	NOT_HEAD	TUN
+394	lower	['much', 'lower']	MOD
+395	rate	['a', 'much', 'lower', 'rate', 'compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	OTH
+396	compared	['compared', 'to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	PREP
+397	to	['to', 'the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	PREP
+398	the	NOT_HEAD	OTH
+399	enormous	NOT_HEAD	MOD
+400	numbers	['the', 'enormous', 'numbers', 'of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	OTH
+401	of	['of', 'positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	PREP
+402	positive	NOT_HEAD	MOD
+403	infections	['positive', 'infections', 'linked', 'to', 'the', 'Omicron', 'virus']	OTH
+404	linked	['linked', 'to', 'the', 'Omicron', 'virus']	MOD
+405	to	['to', 'the', 'Omicron', 'virus']	PREP
+406	the	NOT_HEAD	OTH
+407	Omicron	NOT_HEAD	MOD
+408	virus	['the', 'Omicron', 'virus']	OTH
+409	.	NOT_HEAD	OTH
+410	""""""""""	NOT_HEAD	OTH
+411	The	NOT_HEAD	OTH
+412	number	['The', 'number', 'of', 'infections']	OTH
+413	of	['of', 'infections']	PREP
+414	infections	NOT_HEAD	OTH
+415	is	"""['""""', 'The', 'number', 'of', 'infections', 'is', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad']"""	VERB
+416	very	NOT_HEAD	TUN
+417	high	['very', 'high']	OTH
+418	,	NOT_HEAD	OTH
+419	but	NOT_HEAD	OTH
+420	fortunately	NOT_HEAD	TUN
+421	the	NOT_HEAD	OTH
+422	pressure	['the', 'pressure', 'on', 'healthcare']	OTH
+423	on	['on', 'healthcare']	PREP
+424	healthcare	NOT_HEAD	OTH
+425	is	['fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad']	OTH
+426	not	NOT_HEAD	INV
+427	too	NOT_HEAD	TUN
+428	bad	['too', 'bad']	OTH
+429	,	NOT_HEAD	OTH
+430	""""""""""	NOT_HEAD	OTH
+431	said	"""['""""', 'The', 'number', 'of', 'infections', 'is', 'very', 'high', ',', 'but', 'fortunately', 'the', 'pressure', 'on', 'healthcare', 'is', 'not', 'too', 'bad', ',', '""""', 'said', 'Health', 'Minister', 'Ernst', 'Kuipers', 'on', 'Wednesday', '.']"""	VERB
+432	Health	NOT_HEAD	MOD
+433	Minister	['Health', 'Minister']	MOD
+434	Ernst	NOT_HEAD	MOD
+435	Kuipers	['Health', 'Minister', 'Ernst', 'Kuipers']	OTH
+436	on	['on', 'Wednesday']	PREP
+437	Wednesday	NOT_HEAD	OTH
+438	.	NOT_HEAD	OTH
+439	Cabinet	NOT_HEAD	MOD
+440	members	['Cabinet', 'members']	OTH
+441	did	NOT_HEAD	OTH
+442	not	NOT_HEAD	INV
+443	want	['Cabinet', 'members', 'did', 'not', 'want', 'to', 'publicly', 'anticipate', 'any', 'relaxations', '.']	VERB
+444	to	NOT_HEAD	OTH
+445	publicly	NOT_HEAD	TUN
+446	anticipate	['to', 'publicly', 'anticipate', 'any', 'relaxations']	VERB
+447	any	NOT_HEAD	OTH
+448	relaxations	['any', 'relaxations']	OTH
+449	.	NOT_HEAD	OTH
+450	Prime	NOT_HEAD	MOD
+451	Minister	['Prime', 'Minister']	MOD
+452	Mark	NOT_HEAD	MOD
+453	Rutte	['Prime', 'Minister', 'Mark', 'Rutte']	OTH
+454	said	"""['Prime', 'Minister', 'Mark', 'Rutte', 'said', 'on', 'Wednesday', 'that', 'the', 'chance', 'is', '""""', 'really', 'high', '""""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible', '.']"""	VERB
+455	on	['on', 'Wednesday']	PREP
+456	Wednesday	NOT_HEAD	OTH
+457	that	NOT_HEAD	OTH
+458	the	NOT_HEAD	OTH
+459	chance	['the', 'chance']	OTH
+460	is	"""['that', 'the', 'chance', 'is', '""""', 'really', 'high', '""""', 'that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible']"""	VERB
+461	""""""""""	NOT_HEAD	OTH
+462	really	NOT_HEAD	TUN
+463	high	"""['really', 'high', '""""']"""	OTH
+464	""""""""""	NOT_HEAD	OTH
+465	that	NOT_HEAD	OTH
+466	loosening	['loosening', 'up', 'restrictions']	VERB
+467	up	NOT_HEAD	OTH
+468	restrictions	NOT_HEAD	OTH
+469	will	NOT_HEAD	OTH
+470	be	['that', 'loosening', 'up', 'restrictions', 'will', 'be', 'possible']	VERB
+471	possible	NOT_HEAD	OTH
+472	.	NOT_HEAD	OTH
+473	Cabinet	NOT_HEAD	MOD
+474	ministers	['Cabinet', 'ministers']	OTH
+475	met	['Cabinet', 'ministers', 'met', 'for', 'an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy', 'on', 'Wednesday', 'morning', ',', 'and', 'the', 'OMT', 'will', 'meet', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']	VERB
+476	for	['for', 'an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy']	PREP
+477	an	NOT_HEAD	OTH
+478	extra	NOT_HEAD	MOD
+479	meeting	['an', 'extra', 'meeting', 'about', 'the', 'coronavirus', 'policy']	OTH
+480	about	['about', 'the', 'coronavirus', 'policy']	PREP
+481	the	NOT_HEAD	OTH
+482	coronavirus	NOT_HEAD	MOD
+483	policy	['the', 'coronavirus', 'policy']	OTH
+484	on	['on', 'Wednesday', 'morning']	PREP
+485	Wednesday	NOT_HEAD	MOD
+486	morning	['Wednesday', 'morning']	OTH
+487	,	NOT_HEAD	OTH
+488	and	NOT_HEAD	OTH
+489	the	NOT_HEAD	OTH
+490	OMT	['the', 'OMT']	OTH
+491	will	NOT_HEAD	OTH
+492	meet	['the', 'OMT', 'will', 'meet', 'again', 'to', 'discuss', 'the', 'issue', 'on', 'Friday', '.']	OTH
+493	again	NOT_HEAD	TUN
+494	to	NOT_HEAD	OTH
+495	discuss	['to', 'discuss', 'the', 'issue', 'on', 'Friday']	MOD
+496	the	NOT_HEAD	OTH
+497	issue	['the', 'issue']	OTH
+498	on	['on', 'Friday']	PREP
+499	Friday	NOT_HEAD	OTH
+500	.	NOT_HEAD	OTH
+501	Rutte	NOT_HEAD	OTH
+502	said	"""['Rutte', 'said', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', """"'s"""", 'considering', 'even', 'before', 'the', 'weekend', ',', '""""', 'a', 'sort', 'of', """"'"""", 'what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures']"""	VERB
+503	the	NOT_HEAD	OTH
+504	Cabinet	['the', 'Cabinet']	OTH
+505	could	NOT_HEAD	OTH
+506	inform	"""['the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', """"'s"""", 'considering', 'even', 'before', 'the', 'weekend', ',', '""""', 'a', 'sort', 'of', """"'"""", 'what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures']"""	VERB
+507	the	NOT_HEAD	OTH
+508	Tweede	NOT_HEAD	MOD
+509	Kamer	['the', 'Tweede', 'Kamer']	OTH
+510	about	"""['about', 'what', 'it', """"'s"""", 'considering', 'even', 'before', 'the', 'weekend']"""	PREP
+511	what	NOT_HEAD	OTH
+512	it	NOT_HEAD	OTH
+513	's	NOT_HEAD	OTH
+514	considering	"""['what', 'it', """"'s"""", 'considering', 'even', 'before', 'the', 'weekend']"""	VERB
+515	even	NOT_HEAD	TUN
+516	before	['even', 'before', 'the', 'weekend']	PREP
+517	the	NOT_HEAD	OTH
+518	weekend	['the', 'weekend']	OTH
+519	,	NOT_HEAD	OTH
+520	""""""""""	NOT_HEAD	OTH
+521	a	NOT_HEAD	OTH
+522	sort	"""['""""', 'a', 'sort', 'of', """"'"""", 'what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures']"""	OTH
+523	of	"""['of', """"'"""", 'what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures']"""	PREP
+524	'	NOT_HEAD	OTH
+525	what	NOT_HEAD	OTH
+526	could	NOT_HEAD	OTH
+527	be	"""['what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures']"""	VERB
+528	'	NOT_HEAD	OTH
+529	package	"""[""""'"""", 'package', '""""', 'of', 'measures']"""	OTH
+530	""""""""""	NOT_HEAD	OTH
+531	of	['of', 'measures']	PREP
+532	measures	NOT_HEAD	OTH
+533	,	NOT_HEAD	OTH
+534	he	NOT_HEAD	OTH
+535	said	"""['Rutte', 'said', 'the', 'Cabinet', 'could', 'inform', 'the', 'Tweede', 'Kamer', 'about', 'what', 'it', """"'s"""", 'considering', 'even', 'before', 'the', 'weekend', ',', '""""', 'a', 'sort', 'of', """"'"""", 'what', 'could', 'be', """"'"""", 'package', '""""', 'of', 'measures', ',', 'he', 'said', '.']"""	VERB
+536	.	NOT_HEAD	OTH
+537	In	['In', 'addition']	PREP
+538	addition	NOT_HEAD	OTH
+539	,	NOT_HEAD	OTH
+540	the	NOT_HEAD	OTH
+541	Cabinet	['the', 'Cabinet']	OTH
+542	will	NOT_HEAD	OTH
+543	have	['In', 'addition', ',', 'the', 'Cabinet', 'will', 'have', 'to', 'make', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented', ',', 'particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal', '.']	VERB
+544	to	NOT_HEAD	OTH
+545	make	['to', 'make', 'it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented']	VERB
+546	it	NOT_HEAD	OTH
+547	clear	['it', 'clear', 'that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented']	VERB
+548	that	NOT_HEAD	OTH
+549	all	NOT_HEAD	OTH
+550	these	NOT_HEAD	OTH
+551	relaxations	['all', 'these', 'relaxations']	OTH
+552	may	NOT_HEAD	OTH
+553	not	NOT_HEAD	INV
+554	be	NOT_HEAD	OTH
+555	implemented	['that', 'all', 'these', 'relaxations', 'may', 'not', 'be', 'implemented']	MOD
+556	,	NOT_HEAD	OTH
+557	particularly	NOT_HEAD	TUN
+558	if	NOT_HEAD	OTH
+559	the	NOT_HEAD	OTH
+560	OMT	['the', 'OMT']	OTH
+561	sees	['particularly', 'if', 'the', 'OMT', 'sees', 'a', 'problem', 'with', 'the', 'proposal']	MOD
+562	a	NOT_HEAD	OTH
+563	problem	['a', 'problem', 'with', 'the', 'proposal']	OTH
+564	with	['with', 'the', 'proposal']	PREP
+565	the	NOT_HEAD	OTH
+566	proposal	['the', 'proposal']	OTH
+567	.	NOT_HEAD	OTH
+568	Anything	NOT_HEAD	OTH
+569	taken	['Anything', 'taken', 'off', 'the', 'table', 'in', 'the', 'interim']	VERB
+570	off	NOT_HEAD	OTH
+571	the	NOT_HEAD	OTH
+572	table	['the', 'table']	OTH
+573	in	['in', 'the', 'interim']	PREP
+574	the	NOT_HEAD	OTH
+575	interim	['the', 'interim']	OTH
+576	will	NOT_HEAD	OTH
+577	be	NOT_HEAD	OTH
+578	made	['Anything', 'taken', 'off', 'the', 'table', 'in', 'the', 'interim', 'will', 'be', 'made', 'clear', 'on', 'Tuesday', '.']	VERB
+579	clear	NOT_HEAD	OTH
+580	on	['on', 'Tuesday']	PREP
+581	Tuesday	NOT_HEAD	OTH
+582	.	NOT_HEAD	OTH
+583	Far	NOT_HEAD	TUN
+584	-	NOT_HEAD	OTH
+585	reaching	['Far', '-', 'reaching']	MOD
+586	elimination	['Far', '-', 'reaching', 'elimination', 'of', 'restrictions']	OTH
+587	of	['of', 'restrictions']	PREP
+588	restrictions	NOT_HEAD	OTH
+589	will	NOT_HEAD	OTH
+590	also	NOT_HEAD	TUN
+591	be	NOT_HEAD	OTH
+592	announced	['Far', '-', 'reaching', 'elimination', 'of', 'restrictions', 'will', 'also', 'be', 'announced', 'in', 'other', 'European', 'countries', 'in', 'the', 'coming', 'days', '.']	VERB
+593	in	['in', 'other', 'European', 'countries', 'in', 'the', 'coming', 'days']	PREP
+594	other	NOT_HEAD	MOD
+595	European	NOT_HEAD	MOD
+596	countries	['other', 'European', 'countries', 'in', 'the', 'coming', 'days']	OTH
+597	in	['in', 'the', 'coming', 'days']	PREP
+598	the	NOT_HEAD	OTH
+599	coming	NOT_HEAD	MOD
+600	days	['the', 'coming', 'days']	OTH
+601	.	NOT_HEAD	OTH
+602	For	['For', 'example']	PREP
+603	example	NOT_HEAD	OTH
+604	,	NOT_HEAD	OTH
+605	the	NOT_HEAD	OTH
+606	Belgian	NOT_HEAD	MOD
+607	minister	['the', 'Belgian', 'minister', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke', ',']	OTH
+608	handling	['handling', 'coronavirus', 'issues']	MOD
+609	coronavirus	NOT_HEAD	MOD
+610	issues	['coronavirus', 'issues']	OTH
+611	,	NOT_HEAD	OTH
+612	Frank	NOT_HEAD	MOD
+613	Vandenbroucke	['Frank', 'Vandenbroucke']	MOD
+614	,	NOT_HEAD	OTH
+615	expects	['For', 'example', ',', 'the', 'Belgian', 'minister', 'handling', 'coronavirus', 'issues', ',', 'Frank', 'Vandenbroucke', ',', 'expects', 'that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'withdrawn', 'in', 'Belgium', 'next', 'Friday', '.']	VERB
+616	that	NOT_HEAD	OTH
+617	almost	NOT_HEAD	TUN
+618	all	['almost', 'all']	MOD
+619	coronavirus	NOT_HEAD	MOD
+620	measures	['almost', 'all', 'coronavirus', 'measures']	OTH
+621	will	NOT_HEAD	OTH
+622	be	NOT_HEAD	OTH
+623	withdrawn	['that', 'almost', 'all', 'coronavirus', 'measures', 'will', 'be', 'withdrawn', 'in', 'Belgium', 'next', 'Friday']	VERB
+624	in	['in', 'Belgium']	PREP
+625	Belgium	NOT_HEAD	OTH
+626	next	NOT_HEAD	MOD
+627	Friday	['next', 'Friday']	OTH
+628	.	NOT_HEAD	OTH
