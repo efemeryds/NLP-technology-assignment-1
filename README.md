@@ -28,7 +28,7 @@ Token level:
 - Head
 - Number of dependents
 - Constituent of head
-- Constituency path
+- Constituency path (from S to POS-tag of token)
 - Head of target (sample)
 
 Sentence level:
