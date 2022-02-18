@@ -44,8 +44,5 @@ def get_head_of_targetword(target, sentence):
 
 testfile = read_file('..\parsetest_ams.txt')
 print(''.join(testfile))
-#doc = parse_doc(''.join(testfile))
-#get_head_of_targetword('some', doc.sentences[0])
-question = 'what did Anne make for breakfast?'
-question2 = 'who did Anne get?'
-modify_question(question)
+doc = parse_doc(''.join(testfile))
+get_head_of_targetword('some', doc.sentences[0])
