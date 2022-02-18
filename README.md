@@ -23,14 +23,24 @@ A.M. Dobrzeniecka (Alicja), E.H.W. Galjaard (Ellemijn), T.A. Wisman (Tessel), Y.
 ```
 
 ## IMPLEMENTED FEATURES
-- dependency path
-- dependency label
-- syntax path
+Token level:
+- Nature of dependency
+- Head
+- Number of dependents
+- Constituent of head
+- Constituency path
+
+- Head of target (sample)
+
+Sentence level:
+- Full syntactic tree
+- Dependency path
 
 ## HOW TO USE IT
 - STEP 1. Install libraries specified in **requirements.txt**
-- STEP 2. Run files in **code/** to get features from **data/article.txt** 
-- STEP 3. Check the results in **results/**
+- STEP 2. Run `parse_data.py` in **code/** to parse **data/article.txt** 
+- STEP 3. Run `extract_*.py` in **code/** to get features from **data/article.txt** 
+- STEP 4. Check the results in **results/**
 
 ## REMARKS 
 
