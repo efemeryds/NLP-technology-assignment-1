@@ -79,4 +79,4 @@ if __name__ == "__main__":
     # add new column to dataframe
     df_structure["paths"] = labels
 
-    df_structure.to_csv("../results/full_constituents.csv")
+    df_structure.to_csv("../results/constituency_paths.csv")

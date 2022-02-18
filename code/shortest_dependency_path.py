@@ -69,5 +69,5 @@ if __name__ == "__main__":
     # convert text into a list of sentences
     text_list_input = nltk.tokenize.sent_tokenize(content)
     shortest_path_results = find_shortest_path(text_list_input)
-    shortest_path_results.to_csv("../data/shortest_path.csv")
+    shortest_path_results.to_csv("../results/shortest_dependency_path.csv")
     print('DONE')

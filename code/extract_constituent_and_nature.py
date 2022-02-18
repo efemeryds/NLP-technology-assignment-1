@@ -54,5 +54,5 @@ features_df = pd.DataFrame({"token": parse["token"],
                             "constituent_of_head": constituent_of_head,
                            "nature": nature})
 
-outfile = "../results/extract_constituent_and_nature.py.tsv"
+outfile = "../results/extract_constituent_and_nature.tsv"
 write_features(features_df, outfile)
