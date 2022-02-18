@@ -29,8 +29,8 @@ Token level:
 - Number of dependents
 - Constituent of head
 - Constituency path
+
 - Head of target (sample)
-- 
 Sentence level:
 - Full syntactic tree
 - Dependency path
