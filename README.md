@@ -1,4 +1,4 @@
-# NLP-technology-assignment-1
+# NLP Technology syntax assignment 
 Solutions for the Syntax part of the assignment
 
 ## AUTHORS
